@@ -11,11 +11,11 @@
             <div class="w_nav1">
                 <h4>All</h4>
                 <ul>
-                    <li><a href="/fh/mvtop">豆瓣口碑</a></li>
-                    <li><a href="/fh/mvhot">影院热映</a></li>
-                    <li><a href="/fh/fhs">番号大全</a></li>
-                    <li><a href="/fh/casts">女优排行</a></li>
-                    <li><a href="/fh/publishers">番号系列</a></li>
+                    <li><a href="/mvtop">豆瓣口碑</a></li>
+                    <li><a href="/mvhot">影院热映</a></li>
+                    <li><a href="/fhs">番号大全</a></li>
+                    <li><a href="/casts">女优排行</a></li>
+                    <li><a href="/publishers">番号系列</a></li>
                 </ul>
             </div>
         </div>
@@ -75,7 +75,7 @@
             $(".pagination").createPage({
                 totalPage: {{ pages }},
                 currPage: page,
-                link_to:"/fh/casts/__id__"
+                link_to:"/casts/__id__"
                 });
         })
     </script>

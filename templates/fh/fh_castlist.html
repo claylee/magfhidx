@@ -10,9 +10,9 @@
             <div class="w_nav1">
                 <h4>All</h4>
                 <ul>
-                    <li><a href="/fh/fhs">番号大全</a></li>
-                    <li><a href="/fh/casts">女优排行</a></li>
-                    <li><a href="/fh/publishers">番号系列</a></li>
+                    <li><a href="/fhs">番号大全</a></li>
+                    <li><a href="/casts">女优排行</a></li>
+                    <li><a href="/publishers">番号系列</a></li>
                 </ul>
             </div>
             <h3>过滤</h3>
@@ -20,19 +20,19 @@
                 <h4>出道时间</h4>
                 <div class="row1 scroll-pane">
                     <div class="col col-4">
-                        <a href="/fh/casts/"><button>全部</button></a>
+                        <a href="/casts/"><button>全部</button></a>
                     </div>
                     <div class="col col-4">
-                        <a href="/fh/casts_date/2018"><button>2018</button></a>
-                        <a href="/fh/casts_date/2017"><button>2017</button></a>
-                        <a href="/fh/casts_date/2016"><button>2016</button></a>
-                        <a href="/fh/casts_date/2015"><button>2015</button></a>
-                        <a href="/fh/casts_date/2014"><button>2014</button></a>
-                        <a href="/fh/casts_date/2013"><button>2013</button></a>
-                        <a href="/fh/casts_date/2012"><button>2012</button></a>
-                        <a href="/fh/casts_date/2011"><button>2011</button></a>
-                        <a href="/fh/casts_date/2010"><button>2010</button></a>
-                        <a href="/fh/casts_date/2009"><button>2009</button></a>
+                        <a href="/casts_date/2018"><button>2018</button></a>
+                        <a href="/casts_date/2017"><button>2017</button></a>
+                        <a href="/casts_date/2016"><button>2016</button></a>
+                        <a href="/casts_date/2015"><button>2015</button></a>
+                        <a href="/casts_date/2014"><button>2014</button></a>
+                        <a href="/casts_date/2013"><button>2013</button></a>
+                        <a href="/casts_date/2012"><button>2012</button></a>
+                        <a href="/casts_date/2011"><button>2011</button></a>
+                        <a href="/casts_date/2010"><button>2010</button></a>
+                        <a href="/casts_date/2009"><button>2009</button></a>
                     </div>
                 </div>
             </section>
@@ -40,16 +40,16 @@
                 <h4>演员特点</h4>
                 <div class="row1 scroll-pane">
                     <div class="col col-4">
-                        <a href="/fh/casts/"><button>全部</button></a>
+                        <a href="/casts/"><button>全部</button></a>
                     </div>
                     <div class="col col-4">
-                        <a href="/fh/casts_tag/最美"><button>最美</button></a>
-                        <a href="/fh/casts_tag/90后"><button>90后</button></a>
-                        <a href="/fh/casts_tag/名模"><button>名模</button></a>
-                        <a href="/fh/casts_tag/大胸"><button>大胸</button></a>
-                        <a href="/fh/casts_tag/漂亮"><button>漂亮</button></a>
-                        <a href="/fh/casts_tag/萝莉"><button>萝莉</button></a>
-                        <a href="/fh/casts_tag/步兵"><button>步兵</button></a>
+                        <a href="/casts_tag/最美"><button>最美</button></a>
+                        <a href="/casts_tag/90后"><button>90后</button></a>
+                        <a href="/casts_tag/名模"><button>名模</button></a>
+                        <a href="/casts_tag/大胸"><button>大胸</button></a>
+                        <a href="/casts_tag/漂亮"><button>漂亮</button></a>
+                        <a href="/casts_tag/萝莉"><button>萝莉</button></a>
+                        <a href="/casts_tag/步兵"><button>步兵</button></a>
                     </div>
                 </div>
             </section>
@@ -77,14 +77,14 @@
             <div class="grid1_of_4">
                 <div class="content_box">
                     <div class="view view-fifth">
-                        <a href="/fh/cast/{{mi['name']}}" target="_blank">
+                        <a href="/cast/{{mi['name']}}" target="_blank">
                             <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
                             <div class="mask">
                                 <div class="info">Quick View</div>
                             </div>
                         </a>
                     </div>
-                    <h4><a target="_blank" href="/fh/cast/{{mi['name']}}">{{mi['name']}}</a></h4>
+                    <h4><a target="_blank" href="/cast/{{mi['name']}}">{{mi['name']}}</a></h4>
                     <p><strong>点赞：</strong>{{mi['hot']}}</p>
                 </div>
             </div>
@@ -113,14 +113,14 @@
 
             if(year)
             {
-                pageurl = "/fh/casts_date/{{year}}/__id__";
+                pageurl = "/casts_date/{{year}}/__id__";
             }
             else if(tag)
             {
-                pageurl = "/fh/casts_tag/{{tag}}/__id__";
+                pageurl = "/casts_tag/{{tag}}/__id__";
             }
             else {
-                pageurl = "/fh/casts/__id__";
+                pageurl = "/casts/__id__";
             }
             $(".pagination").createPage({
                 totalPage: {{ pages }},

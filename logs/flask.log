@@ -12948,3 +12948,1219 @@
  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
 2019-05-07 21:35:55,835 - INFO - application.py - logUserinfo - 75 :
  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:21:26,509 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:21:26,509 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:21:26,528 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:21:26,528 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:21:31,084 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fh/fhhash/AVOP-263/仓多真央
+2019-05-10 00:21:31,084 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fh/fhhash/AVOP-263/仓多真央
+2019-05-10 00:21:31,085 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:21:31,085 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:23,474 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:23:23,474 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:23:23,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:23,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:26,039 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央
+2019-05-10 00:23:26,039 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央
+2019-05-10 00:23:26,043 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:26,043 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:26,056 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央/
+2019-05-10 00:23:26,056 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央/
+2019-05-10 00:23:26,056 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:26,056 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:32,244 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop
+2019-05-10 00:23:32,244 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop
+2019-05-10 00:23:32,246 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:32,246 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:32,253 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:23:32,253 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:23:32,253 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:32,253 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:37,446 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:37,446 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:37,447 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:37,447 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:37,451 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:37,451 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:37,453 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:37,453 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:38,943 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:38,943 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:38,944 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:38,944 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:38,950 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:38,950 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:38,951 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:38,951 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:40,766 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop
+2019-05-10 00:23:40,766 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop
+2019-05-10 00:23:40,767 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:40,767 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:40,775 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:23:40,775 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:23:40,776 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:40,776 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:41,503 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:41,503 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:41,505 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:41,505 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:41,522 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:41,522 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:41,523 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:41,523 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:41,996 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:41,996 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:41,997 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:41,997 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:42,010 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:42,010 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:42,013 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:42,013 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:43,535 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:43,535 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:43,536 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:43,536 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:43,540 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:43,540 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:43,542 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:43,542 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:44,668 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:44,668 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:44,670 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:44,670 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:44,678 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:44,678 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:44,680 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:44,680 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:45,563 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:45,563 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:45,565 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:45,565 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:45,572 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:45,572 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:45,573 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:45,573 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:46,476 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:46,476 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:46,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:46,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:46,483 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:46,483 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:46,484 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:46,484 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:50,433 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:50,433 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:23:50,434 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:50,434 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:50,440 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:50,440 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:23:50,440 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:50,440 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:52,250 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:52,250 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:23:52,253 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:52,253 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:52,260 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:52,260 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:23:52,262 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:23:52,262 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:01,334 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/search?word=死侍2：我爱我家
+2019-05-10 00:24:01,334 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/search?word=死侍2：我爱我家
+2019-05-10 00:24:01,335 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:01,335 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,181 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:24:09,181 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:24:09,184 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,184 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,190 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:24:09,190 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:24:09,196 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,196 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,746 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:24:09,746 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:24:09,750 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,750 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,757 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:24:09,757 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:24:09,757 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:09,757 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:12,849 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-262/笑果りょう
+2019-05-10 00:24:12,849 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-262/笑果りょう
+2019-05-10 00:24:12,851 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:12,851 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:12,867 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-262/笑果りょう/
+2019-05-10 00:24:12,867 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-262/笑果りょう/
+2019-05-10 00:24:12,867 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:12,867 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:19,767 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts
+2019-05-10 00:24:19,767 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts
+2019-05-10 00:24:19,770 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:19,770 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:19,779 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:24:19,779 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:24:19,779 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:19,779 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:21,818 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers
+2019-05-10 00:24:21,818 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers
+2019-05-10 00:24:21,819 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:21,819 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:21,826 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:24:21,826 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:24:21,828 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:21,828 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:44,914 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-948/阳向纱耶香
+2019-05-10 00:24:44,914 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-948/阳向纱耶香
+2019-05-10 00:24:44,915 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:44,915 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:44,931 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-948/阳向纱耶香/
+2019-05-10 00:24:44,931 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-948/阳向纱耶香/
+2019-05-10 00:24:44,933 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:44,933 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:47,931 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里
+2019-05-10 00:24:47,931 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里
+2019-05-10 00:24:47,933 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:47,933 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:47,943 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里/
+2019-05-10 00:24:47,943 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里/
+2019-05-10 00:24:47,944 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:47,944 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:56,497 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里
+2019-05-10 00:24:56,497 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里
+2019-05-10 00:24:56,503 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:56,503 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:56,512 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里/
+2019-05-10 00:24:56,512 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/MXGS-949/神谷瑠里/
+2019-05-10 00:24:56,513 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:24:56,513 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:25:05,635 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers
+2019-05-10 00:25:05,635 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers
+2019-05-10 00:25:05,637 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:25:05,637 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:25:05,642 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:25:05,642 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:25:05,644 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:25:05,644 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+2019-05-10 00:25:59,049 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:25:59,049 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:25:59,049 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:25:59,049 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:00,016 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/favicon.ico
+2019-05-10 00:26:00,016 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/favicon.ico
+2019-05-10 00:26:00,017 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:00,017 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:00,851 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央
+2019-05-10 00:26:00,851 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央
+2019-05-10 00:26:00,852 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:00,852 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:00,861 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央/
+2019-05-10 00:26:00,861 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/AVOP-263/仓多真央/
+2019-05-10 00:26:00,862 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:00,862 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:02,940 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/SOAV-021/仓多真央
+2019-05-10 00:26:02,940 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/SOAV-021/仓多真央
+2019-05-10 00:26:02,940 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:02,940 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:02,944 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/SOAV-021/仓多真央/
+2019-05-10 00:26:02,944 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/SOAV-021/仓多真央/
+2019-05-10 00:26:02,946 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:02,946 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:08,815 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers
+2019-05-10 00:26:08,815 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers
+2019-05-10 00:26:08,816 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:08,816 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:08,822 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:26:08,822 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:26:08,822 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:08,822 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:49,954 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:26:49,954 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:26:49,954 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:26:49,954 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:27:53,707 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:27:53,707 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:28:01,381 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:01,381 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:10,644 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/1113工房/妄想族
+2019-05-10 00:28:10,644 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/1113工房/妄想族
+2019-05-10 00:28:10,645 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:10,645 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:13,648 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/S1NO.1STYLE
+2019-05-10 00:28:13,648 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/S1NO.1STYLE
+2019-05-10 00:28:13,648 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:13,648 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:46,059 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/熟れコミ
+2019-05-10 00:28:46,059 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/熟れコミ
+2019-05-10 00:28:46,059 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:46,059 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:47,351 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher_date/熟れコミ/2018
+2019-05-10 00:28:47,351 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher_date/熟れコミ/2018
+2019-05-10 00:28:47,355 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:47,355 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:48,289 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher_date/熟れコミ/2017
+2019-05-10 00:28:48,289 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher_date/熟れコミ/2017
+2019-05-10 00:28:48,290 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:48,290 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:49,273 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:28:49,273 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot
+2019-05-10 00:28:49,273 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:49,273 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:49,279 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:28:49,279 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:28:49,279 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:49,279 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:50,193 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:28:50,193 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs
+2019-05-10 00:28:50,194 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:50,194 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:50,198 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:28:50,198 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:28:50,200 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:50,200 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:51,267 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop
+2019-05-10 00:28:51,267 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop
+2019-05-10 00:28:51,269 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:51,269 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:51,273 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:28:51,273 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:28:51,273 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:51,273 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:52,650 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/hottags/
+2019-05-10 00:28:52,650 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/hottags/
+2019-05-10 00:28:52,651 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:52,651 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:55,512 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:28:55,512 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:28:55,513 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:55,513 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:56,128 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:28:56,128 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:28:56,130 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:56,130 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:57,374 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts
+2019-05-10 00:28:57,374 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts
+2019-05-10 00:28:57,375 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:57,375 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:57,378 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:28:57,378 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:28:57,380 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:57,380 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:58,035 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:28:58,035 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:28:58,036 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:58,036 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:58,930 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:28:58,930 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:28:58,930 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:58,930 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:59,779 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/三上悠亚
+2019-05-10 00:28:59,779 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/三上悠亚
+2019-05-10 00:28:59,779 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:59,779 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:59,786 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/三上悠亚/
+2019-05-10 00:28:59,786 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/三上悠亚/
+2019-05-10 00:28:59,786 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:28:59,786 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:01,463 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2017
+2019-05-10 00:29:01,463 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2017
+2019-05-10 00:29:01,463 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:01,463 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:02,213 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2014
+2019-05-10 00:29:02,213 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2014
+2019-05-10 00:29:02,214 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:02,214 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:03,950 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2011
+2019-05-10 00:29:03,950 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2011
+2019-05-10 00:29:03,950 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:03,950 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:05,308 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/安城安娜
+2019-05-10 00:29:05,308 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/安城安娜
+2019-05-10 00:29:05,308 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:05,308 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:05,313 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/安城安娜/
+2019-05-10 00:29:05,313 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/安城安娜/
+2019-05-10 00:29:05,313 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:05,313 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:23,885 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/search?word=``1
+2019-05-10 00:29:23,885 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/search?word=``1
+2019-05-10 00:29:23,888 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:23,888 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:34,908 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/上原瑞穗
+2019-05-10 00:29:34,908 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/上原瑞穗
+2019-05-10 00:29:34,911 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:34,911 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:34,917 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/上原瑞穗/
+2019-05-10 00:29:34,917 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/cast/上原瑞穗/
+2019-05-10 00:29:34,917 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:34,917 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:37,063 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:29:37,063 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:29:37,065 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:29:37,065 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:30:03,732 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2017
+2019-05-10 00:30:03,732 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts_date/2017
+2019-05-10 00:30:03,733 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:30:03,733 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:30:04,561 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:30:04,561 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:30:04,562 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:30:04,562 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:30:06,117 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:30:06,117 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:30:06,118 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:30:06,118 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:19,257 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:31:19,257 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 00:31:19,259 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:19,259 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:25,740 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:31:25,740 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:31:25,740 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:25,740 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:26,806 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:31:26,806 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:31:26,806 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:26,806 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:31,234 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:31:31,234 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:31:31,236 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:31,236 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:32,510 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:31:32,510 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:31:32,512 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:32,512 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:33,545 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:31:33,545 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:31:33,545 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:33,545 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:34,400 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:31:34,400 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 00:31:34,401 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:34,401 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:35,296 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:31:35,296 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 00:31:35,296 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:35,296 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:35,862 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:31:35,862 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:31:35,862 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:35,862 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:37,561 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:31:37,561 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 00:31:37,561 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:37,561 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:38,792 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:31:38,792 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 00:31:38,793 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:38,793 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:39,878 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/熟の蔵
+2019-05-10 00:31:39,878 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publisher/熟の蔵
+2019-05-10 00:31:39,880 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:39,880 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:59,250 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:31:59,250 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 00:31:59,252 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 00:31:59,252 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:52,575 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:52:52,575 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:52:52,575 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:52,575 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:55,236 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:52:55,236 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:52:55,236 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:55,236 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:56,108 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 02:52:56,108 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 02:52:56,108 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:56,108 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:56,552 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:52:56,552 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:52:56,552 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:52:56,552 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:00,069 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:00,069 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:00,078 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:00,078 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:00,654 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2018
+2019-05-10 02:53:00,654 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2018
+2019-05-10 02:53:00,654 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:00,654 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:01,431 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2017
+2019-05-10 02:53:01,431 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2017
+2019-05-10 02:53:01,434 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:01,434 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:02,611 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2014
+2019-05-10 02:53:02,611 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2014
+2019-05-10 02:53:02,618 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:02,618 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:03,288 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2011
+2019-05-10 02:53:03,288 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2011
+2019-05-10 02:53:03,295 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:03,295 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:04,102 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2015
+2019-05-10 02:53:04,102 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2015
+2019-05-10 02:53:04,105 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:04,105 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:05,045 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2012
+2019-05-10 02:53:05,045 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2012
+2019-05-10 02:53:05,048 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:05,048 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:05,721 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2009
+2019-05-10 02:53:05,721 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2009
+2019-05-10 02:53:05,723 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:05,723 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:06,582 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2010
+2019-05-10 02:53:06,582 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2010
+2019-05-10 02:53:06,585 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:06,585 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:07,062 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2013
+2019-05-10 02:53:07,062 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2013
+2019-05-10 02:53:07,069 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:07,069 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:08,680 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:08,680 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:08,683 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:08,683 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:09,884 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2017
+2019-05-10 02:53:09,884 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2017
+2019-05-10 02:53:09,887 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:09,887 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:10,861 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2014
+2019-05-10 02:53:10,861 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2014
+2019-05-10 02:53:10,861 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:10,861 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:11,529 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2011
+2019-05-10 02:53:11,529 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2011
+2019-05-10 02:53:11,532 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:11,532 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:13,457 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2011
+2019-05-10 02:53:13,457 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2011
+2019-05-10 02:53:13,457 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:13,457 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:14,009 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2014
+2019-05-10 02:53:14,009 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs_date/2014
+2019-05-10 02:53:14,009 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:14,009 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:31,966 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/ABP-145/桃谷绘里香/
+2019-05-10 02:53:31,966 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhhash/ABP-145/桃谷绘里香/
+2019-05-10 02:53:31,966 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:31,966 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:41,042 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:41,042 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:41,042 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:41,042 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:42,016 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:42,016 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:42,026 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:42,026 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:43,095 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 02:53:43,095 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 02:53:43,095 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:43,095 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:43,641 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:53:43,641 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:53:43,641 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:43,641 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:44,369 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 02:53:44,369 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvhot/
+2019-05-10 02:53:44,369 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:44,369 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:44,936 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:53:44,936 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 02:53:44,946 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:44,946 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:45,476 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 02:53:45,476 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 02:53:45,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:45,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:46,015 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:46,015 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:46,025 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:46,025 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:46,500 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:46,500 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:46,500 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:46,500 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:48,065 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:48,065 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:48,065 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:48,065 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:48,865 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:48,865 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:48,865 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:48,865 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:49,704 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:49,704 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:49,707 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:49,707 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:50,089 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 02:53:50,089 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/publishers/
+2019-05-10 02:53:50,099 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:50,099 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:52,026 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:52,026 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/casts/
+2019-05-10 02:53:52,026 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:52,026 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:52,736 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:52,736 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:53:52,736 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:53:52,736 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:57:59,006 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:57:59,006 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 02:57:59,016 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 02:57:59,016 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:02,486 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 03:09:02,486 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/mvtop/
+2019-05-10 03:09:02,486 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:02,486 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:09,414 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 03:09:09,414 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/fhs/
+2019-05-10 03:09:09,424 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:09,424 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:22,476 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:22,476 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:22,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:22,476 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:37,486 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:37,486 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:37,496 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:37,496 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:39,174 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:39,174 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:39,184 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:39,184 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:53,700 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:53,700 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:09:53,710 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:09:53,710 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:10:04,029 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:10:04,029 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:10:04,039 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:10:04,039 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:10:45,167 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:10:45,167 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:10:45,177 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:10:45,177 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:11:02,055 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:11:02,055 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:11:02,075 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:11:02,075 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:12:58,621 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:12:58,621 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:12:58,621 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:12:58,621 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:14:18,088 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:14:18,088 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:14:18,088 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:14:18,088 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:14:54,865 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:14:54,865 - INFO - application.py - logUserinfo - 72 :
+ 127.0.0.1 : http://localhost:5000/
+2019-05-10 03:14:54,865 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+2019-05-10 03:14:54,865 - INFO - application.py - logUserinfo - 73 :
+ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0

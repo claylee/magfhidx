@@ -35,7 +35,7 @@
 
                 <span class="card-text">
                     {% for c in cast.tags %}
-                      <a href="/fh/casts_tag/{{c}}"><span class="badge badge-primary">{{c}}</span></a>
+                      <a href="/casts_tag/{{c}}"><span class="badge badge-primary">{{c}}</span></a>
                     {%endfor%}
                 </span><br />
                 <span class="card-text"> </span>
@@ -60,14 +60,14 @@
             <div class="grid1_of_4">
                 <div class="content_box">
                     <div class="view view-fifth">
-                        <a href="/fh/fhhash/{{mi['no']}}/{{cast['name']}}" target="_blank">
+                        <a href="/fhhash/{{mi['no']}}/{{cast['name']}}" target="_blank">
                             <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
                             <div class="mask">
                                 <div class="info">Quick View</div>
                             </div>
                         </a>
                     </div>
-                    <h4><a target="_blank" href="/fh/fhhash/{{mi['no']}}/{{cast['name']}}">{{mi['no']}}</a></h4>
+                    <h4><a target="_blank" href="/fhhash/{{mi['no']}}/{{cast['name']}}">{{mi['no']}}</a></h4>
                     <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
                 </div>
             </div>
@@ -89,9 +89,9 @@
             <div class="w_nav1">
                 <h4>All</h4>
                 <ul>
-                    <li><a href="/fh/fhs">番号大全</a></li>
-                    <li><a href="/fh/casts">女优大全</a></li>
-                    <li><a href="/fh/publishers">番号系列</a></li>
+                    <li><a href="/fhs">番号大全</a></li>
+                    <li><a href="/casts">女优大全</a></li>
+                    <li><a href="/publishers">番号系列</a></li>
                 </ul>
             </div>
             <h3>filter by</h3>
@@ -100,7 +100,7 @@
                 <div class="row1 scroll-pane">
                     <div class="col col-4">
                           {% for c in cast.tags %}
-                            <a href="/fh/casts_tag/{{c}}"><i></i><span class="badge ">{{c}}</span></a>
+                            <a href="/casts_tag/{{c}}"><i></i><span class="badge ">{{c}}</span></a>
                           {%endfor%}
                     </div>
                 </div>
@@ -117,7 +117,7 @@
             $(".pagination").createPage({
                 totalPage: {{ pages }},
                 currPage: page,
-                link_to:"/fh/cast/{{cast['name']}}/__id__"
+                link_to:"/cast/{{cast['name']}}/__id__"
             });
         })
     </script>

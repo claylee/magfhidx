@@ -6,13 +6,13 @@
     <div class="col-md-9 w_content">
         <div class="women">
             <a href="#">
-                <h4>Tor01 - 番号系列<span></span> </h4>
+                <h4>番号系列<span></span> </h4>
             </a>
             <div class="clearfix"></div>
         </div>
             <div class="">
                 {% for mi in publist if not mi == ''%}
-                <a href="/fh/publisher/{{mi.decode('utf-8')}}"><button class="btn btn-light" style="margin:8px; display:inline-block">{{mi}}</button></a>
+                <a href="/publisher/{{mi}}"><button class="btn btn-light" style="margin:8px; display:inline-block">{{mi}}</button></a>
                 {% endfor %}
             </div>
         <!-- Product -->

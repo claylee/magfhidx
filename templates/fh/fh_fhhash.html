@@ -55,11 +55,11 @@
                     <div class="grid1_of_4">
                         <div class="content_box">
                             <div class="view view-fifth">
-                                <a href="/fh/fhhash/{{mi['no']}}/{{cast}}" target="_blank">
+                                <a href="/fhhash/{{mi['no']}}/{{cast}}" target="_blank">
                                     <img src="{{mi.img}}" class="img-responsive" alt="{{cast}}" />
                                 </a>
                             </div>
-                            <h4><a target="_blank" href="/fh/fhhash/{{mi['no']}}/{{cast}}">{{mi['no']}}</a></h4>
+                            <h4><a target="_blank" href="/fhhash/{{mi['no']}}/{{cast}}">{{mi['no']}}</a></h4>
                             <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                             <p><strong>番号：</strong>{{fh.no}}</p>
                         </li>
                         <li>
-                            <p><strong>演出：</strong><a target="_blank" style="display:inline" href="/fh/cast/{{cast}}">{{cast}}</a></p>
+                            <p><strong>演出：</strong><a target="_blank" style="display:inline" href="/cast/{{cast}}">{{cast}}</a></p>
                         </li>
                         <li>
                             {% for c in fh.cast %}
@@ -95,7 +95,7 @@
                             {%endfor%}
                         </li>
                         <li><span>
-                          <strong>片商：</strong><a target="_blank" style="display:inline" href="/fh/publisher/{{fh.publisher}}">{{fh.publisher}}</a></span></li>
+                          <strong>片商：</strong><a target="_blank" style="display:inline" href="/publisher/{{fh.publisher}}">{{fh.publisher}}</a></span></li>
                         <li><strong>发行：</strong>{{fh.issuedate}}</li>
                         <li><strong>点赞：</strong>{{fh.hot}}</li>
                         <li>

@@ -8,9 +8,9 @@
 			<div class="w_nav1">
 				<h4>All</h4>
 				<ul>
-					<li><a href="/fh/fhs">番号大全</a></li>
-					<li><a href="/fh/casts">女优大全</a></li>
-					<li><a href="/fh/publishers">番号系列</a></li>
+					<li><a href="/fhs">番号大全</a></li>
+					<li><a href="/casts">女优大全</a></li>
+					<li><a href="/publishers">番号系列</a></li>
 				</ul>
 			</div>
 			<h3>filter by</h3>
@@ -18,17 +18,17 @@
 				<h4>发行时间</h4>
 				<div class="row1 scroll-pane">
             <div class="col col-4">
-                <a href="/fh/fhs/"><button>全部</button></a>
-                <a href="/fh/fhs_date/2018"><button>2018</button></a>
-                <a href="/fh/fhs_date/2017"><button>2017</button></a>
-                <a href="/fh/fhs_date/2016"><button>2016</button></a>
-                <a href="/fh/fhs_date/2015"><button>2015</button></a>
-                <a href="/fh/fhs_date/2014"><button>2014</button></a>
-                <a href="/fh/fhs_date/2013"><button>2013</button></a>
-                <a href="/fh/fhs_date/2012"><button>2012</button></a>
-                <a href="/fh/fhs_date/2011"><button>2011</button></a>
-                <a href="/fh/fhs_date/2010"><button>2010</button></a>
-                <a href="/fh/fhs_date/2009"><button>2009</button></a>
+                <a href="/fhs/"><button>全部</button></a>
+                <a href="/fhs_date/2018"><button>2018</button></a>
+                <a href="/fhs_date/2017"><button>2017</button></a>
+                <a href="/fhs_date/2016"><button>2016</button></a>
+                <a href="/fhs_date/2015"><button>2015</button></a>
+                <a href="/fhs_date/2014"><button>2014</button></a>
+                <a href="/fhs_date/2013"><button>2013</button></a>
+                <a href="/fhs_date/2012"><button>2012</button></a>
+                <a href="/fhs_date/2011"><button>2011</button></a>
+                <a href="/fhs_date/2010"><button>2010</button></a>
+                <a href="/fhs_date/2009"><button>2009</button></a>
             </div>
 				</div>
 			</section>
@@ -36,18 +36,18 @@
           <h4>番号标签</h4>
           <div class="row1 scroll-pane">
               <div class="col col-4">
-                  <a href="/fh/casts/"><button>全部</button></a>
+                  <a href="/casts/"><button>全部</button></a>
               </div>
               <div class="col col-4">
-                  <a href="/fh/fhs_tag/单体"><button>单体</button></a>
-                  <a href="/fh/fhs_tag/多名"><button>多名</button></a>
-                  <a href="/fh/fhs_tag/步兵"><button>步兵</button></a>
-                  <a href="/fh/fhs_tag/字幕"><button>字幕</button></a>
-                  <a href="/fh/fhs_tag/人妻"><button>人妻</button></a>
-                  <a href="/fh/fhs_tag/户外"><button>户外</button></a>
-                  <a href="/fh/fhs_tag/校园"><button>校园</button></a>
-                  <a href="/fh/fhs_tag/奇幻"><button>奇幻</button></a>
-                  <a href="/fh/fhs_tag/警匪"><button>警匪</button></a>
+                  <a href="/fhs_tag/单体"><button>单体</button></a>
+                  <a href="/fhs_tag/多名"><button>多名</button></a>
+                  <a href="/fhs_tag/步兵"><button>步兵</button></a>
+                  <a href="/fhs_tag/字幕"><button>字幕</button></a>
+                  <a href="/fhs_tag/人妻"><button>人妻</button></a>
+                  <a href="/fhs_tag/户外"><button>户外</button></a>
+                  <a href="/fhs_tag/校园"><button>校园</button></a>
+                  <a href="/fhs_tag/奇幻"><button>奇幻</button></a>
+                  <a href="/fhs_tag/警匪"><button>警匪</button></a>
               </div>
           </div>
       </section>
@@ -67,13 +67,13 @@
 					<div class="grid1_of_4">
 						<div class="content_box">
 								<div class="view view-fifth">
-									<a href="/fh/fhhash/{{mi['no']}}/{{mi['cast'][0]}}" target="_blank">
+									<a href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}" target="_blank">
 									<img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast'][0]}}" />
 									<div class="mask">
 										<div class="info">Quick View</div>
 									</div></a>
 								</div>
-							<h4><a target="_blank" href="/fh/fhhash/{{mi['no']}}/{{mi['cast'][0]}}">{{mi['no']}}</a></h4>
+							<h4><a target="_blank" href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}">{{mi['no']}}</a></h4>
 							<p>{{mi['issuedate']}}        <strong>点赞：</strong>{{mi['hot']}}</p>
 						</div>
 					</div>
@@ -101,7 +101,7 @@
   		$(".pagination").createPage({
   				totalPage:{{pages}},
   				currPage:page,
-  				link_to:"/fh/fhs/__id__"
+  				link_to:"/fhs/__id__"
   		});
   	})
   	</script>

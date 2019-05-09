@@ -8,19 +8,19 @@
                 <h4>发行时间</h4>
                 <div class="row1 scroll-pane">
                     <div class="col col-4">
-                        <a href="/fh/publisher/{{publisher}}"><button>全部</button></a>
+                        <a href="/publisher/{{publisher}}"><button>全部</button></a>
                     </div>
                     <div class="col col-4">
-                        <a href="/fh/publisher_date/{{publisher}}/2018"><button>2018</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2017"><button>2017</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2016"><button>2016</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2015"><button>2015</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2014"><button>2014</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2013"><button>2013</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2012"><button>2012</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2011"><button>2011</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2010"><button>2010</button></a>
-                        <a href="/fh/publisher_date/{{publisher}}/2009"><button>2009</button></a>
+                        <a href="/publisher_date/{{publisher}}/2018"><button>2018</button></a>
+                        <a href="/publisher_date/{{publisher}}/2017"><button>2017</button></a>
+                        <a href="/publisher_date/{{publisher}}/2016"><button>2016</button></a>
+                        <a href="/publisher_date/{{publisher}}/2015"><button>2015</button></a>
+                        <a href="/publisher_date/{{publisher}}/2014"><button>2014</button></a>
+                        <a href="/publisher_date/{{publisher}}/2013"><button>2013</button></a>
+                        <a href="/publisher_date/{{publisher}}/2012"><button>2012</button></a>
+                        <a href="/publisher_date/{{publisher}}/2011"><button>2011</button></a>
+                        <a href="/publisher_date/{{publisher}}/2010"><button>2010</button></a>
+                        <a href="/publisher_date/{{publisher}}/2009"><button>2009</button></a>
                     </div>
                 </div>
             </section>
@@ -40,13 +40,13 @@
                 <div class="grid1_of_4">
                     <div class="content_box">
                             <div class="view view-fifth">
-                                <a href="/fh/fhhash/{{mi['no']}}/{{mi['cast'][0]}}" target="_blank">
+                                <a href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}" target="_blank">
                                 <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast'][0]}}" />
                                 <div class="mask">
                                     <div class="info">Quick View</div>
                                 </div></a>
                             </div>
-                        <h4><a target="_blank" href="/fh/fhhash/{{mi['no']}}/{{mi['cast'][0]}}">{{mi['no']}}</a></h4>
+                        <h4><a target="_blank" href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}">{{mi['no']}}</a></h4>
                         <p>{{mi['issuedate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
                     </div>
                 </div>
@@ -73,10 +73,10 @@
             pageurl = ""
             if(year)
             {
-              pageurl = "/fh/publisher_date/{{publisher}}/{{year}}/__id__";
+              pageurl = "/publisher_date/{{publisher}}/{{year}}/__id__";
             }
             else {
-              pageurl = "/fh/publisher/{{publisher}}/__id__";
+              pageurl = "/publisher/{{publisher}}/__id__";
             }
             $(".pagination").createPage({
                 totalPage: {{ pages }},

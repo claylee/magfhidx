@@ -25,6 +25,17 @@ from models.fanhao import *
 
 
 @fh.route("/",methods = ["Get","POST"])
+def index():
+    fh = Fanhao()
+    fh_arr = fh.load_fanhao().items()
+    fh_arr = fh_arr[1:8]
+
+    cast = Cast()
+    cast_arr = cast.load_casts().items()[1:8]
+
+    return render_template("/fh/index.html", title = "fanhao "
+        ,castlist= cast_arr, fhlist = fh_arr)
+
 @fh.route("/fhs/",methods = ["Get","POST"])
 @fh.route("/fhs/<page>",methods = ["Get","POST"])
 @fh.route("/fhs_date",methods = ["Get","POST"])

@@ -22,13 +22,80 @@
                                 <button type="submit" class="newsletter_button">开始搜索</button>
                             </form>
                         </div>
-                        <div class="newsletter_text">一个轻量的磁力搜索工具.</div>
+                        <div class="newsletter_text">最新番号排行.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+      <div class="women">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9 w_content">
+          <div class="women">
+              <a href="#">
+                  <h4>热门女优 <span></span> </h4>
+              </a>
+              <div class="clearfix"></div>
+          </div>
+          {% for mi in castlist%}
+            {% if (loop.index - 1) % 4 == 0%}
+            <div class="grids_of_4">
+                {%endif%}
+                <div class="grid1_of_4">
+                    <div class="content_box">
+                        <div class="view view-fifth">
+                            <a href="/fhhash/{{mi['no']}}" target="_blank">
+                                <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                                <div class="mask">
+                                    <div class="info">Quick View</div>
+                                </div>
+                            </a>
+                        </div>
+                        <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
+                        <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                    </div>
+                </div>
+                {% if (loop.index) % 4 == 0 or loop.last %}
+            </div>
+            <div class="clearfix"></div>
+            {%endif%}
+          {% endfor %}<div class="clearfix"></div>
 
+
+            <div class="women">
+                <a href="#">
+                    <h4>热门番号 <span></span> </h4>
+                </a>
+                <div class="clearfix"></div>
+            </div>
+            {% for mi in fhlist%}
+              {% if (loop.index - 1) % 4 == 0%}
+              <div class="grids_of_4">
+                  {%endif%}
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/{{mi['no']}}" target="_blank">
+                                  <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
+                          <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                      </div>
+                  </div>
+                  {% if (loop.index) % 4 == 0 or loop.last %}
+              </div>
+              <div class="clearfix"></div>
+            {%endif%}
+          {% endfor %}<div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -47,8 +114,8 @@
                     <nav class="footer_nav">
                         <ul>
                             <li><span data-reactid="19">电影排行:</span></li>
-                            <li><a class="nav-link" href="/fh/mvhot" data-reactid="20">影院热映</a></li>
-                            <li><a class="nav-link" href="/fh/mvtop" data-reactid="21">豆瓣口碑</a></li>
+                            <li><a class="nav-link" href="/mvhot" data-reactid="20">影院热映</a></li>
+                            <li><a class="nav-link" href="/mvtop" data-reactid="21">豆瓣口碑</a></li>
                             <li><span data-reactid="19">
                                     <a class="nav-link" href="/newdata" data-reactid="20">最新收录</a>
                                 </span></li>
