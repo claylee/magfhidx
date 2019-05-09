@@ -289,10 +289,3 @@ def culFilterCuts():
     t = Tag("")
     t.initHashTag()
 
-from sensitivewords import filter as textfilter
-def filterhash():
-    db.init_app(app)
-    from models.Models import Test,SearchHash
-    app.app_context().push()
-    print(dir(textfilter))
-    textfilter.test_first_character()
