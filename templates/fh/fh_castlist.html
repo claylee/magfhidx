@@ -1,0 +1,133 @@
+{% extends "fh/fhbase.html" %}
+
+{% block title %}{{year}}全部-{{ tag }}女优排行-第{{curpage}}页{% endblock %}
+
+{%block body%}
+<div class="women_main">
+    <input type="hidden" class="indextype" value="{{ indextype }}" />
+    <div class="col-md-3">
+        <div class="w_sidebar">
+            <div class="w_nav1">
+                <h4>All</h4>
+                <ul>
+                    <li><a href="/fh/fhs">番号大全</a></li>
+                    <li><a href="/fh/casts">女优排行</a></li>
+                    <li><a href="/fh/publishers">番号系列</a></li>
+                </ul>
+            </div>
+            <h3>过滤</h3>
+            <section class="sky-form">
+                <h4>出道时间</h4>
+                <div class="row1 scroll-pane">
+                    <div class="col col-4">
+                        <a href="/fh/casts/"><button>全部</button></a>
+                    </div>
+                    <div class="col col-4">
+                        <a href="/fh/casts_date/2018"><button>2018</button></a>
+                        <a href="/fh/casts_date/2017"><button>2017</button></a>
+                        <a href="/fh/casts_date/2016"><button>2016</button></a>
+                        <a href="/fh/casts_date/2015"><button>2015</button></a>
+                        <a href="/fh/casts_date/2014"><button>2014</button></a>
+                        <a href="/fh/casts_date/2013"><button>2013</button></a>
+                        <a href="/fh/casts_date/2012"><button>2012</button></a>
+                        <a href="/fh/casts_date/2011"><button>2011</button></a>
+                        <a href="/fh/casts_date/2010"><button>2010</button></a>
+                        <a href="/fh/casts_date/2009"><button>2009</button></a>
+                    </div>
+                </div>
+            </section>
+            <section class="sky-form">
+                <h4>演员特点</h4>
+                <div class="row1 scroll-pane">
+                    <div class="col col-4">
+                        <a href="/fh/casts/"><button>全部</button></a>
+                    </div>
+                    <div class="col col-4">
+                        <a href="/fh/casts_tag/最美"><button>最美</button></a>
+                        <a href="/fh/casts_tag/90后"><button>90后</button></a>
+                        <a href="/fh/casts_tag/名模"><button>名模</button></a>
+                        <a href="/fh/casts_tag/大胸"><button>大胸</button></a>
+                        <a href="/fh/casts_tag/漂亮"><button>漂亮</button></a>
+                        <a href="/fh/casts_tag/萝莉"><button>萝莉</button></a>
+                        <a href="/fh/casts_tag/步兵"><button>步兵</button></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="col-md-9 w_content">
+        <div class="women">
+            <a href="#">
+                <h4>女优排行 - {{year}} - {{ tag }}<span></span> </h4>
+            </a>
+            <ul class="w_nav" style="visibility:hidden">
+                <li>Sort : </li>
+                <li><a class="active" href="#">popular</a></li> |
+                <li><a href="#">new </a></li> |
+                <li><a href="#">discount</a></li> |
+                <li><a href="#">price: Low High </a></li>
+                <div class="clear"></div>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        {% for mi in casts%}
+            {% if (loop.index - 1) % 4 == 0%}
+            <div class="grids_of_4">
+            {%endif%}
+            <div class="grid1_of_4">
+                <div class="content_box">
+                    <div class="view view-fifth">
+                        <a href="/fh/cast/{{mi['name']}}" target="_blank">
+                            <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                            <div class="mask">
+                                <div class="info">Quick View</div>
+                            </div>
+                        </a>
+                    </div>
+                    <h4><a target="_blank" href="/fh/cast/{{mi['name']}}">{{mi['name']}}</a></h4>
+                    <p><strong>点赞：</strong>{{mi['hot']}}</p>
+                </div>
+            </div>
+            {% if (loop.index) % 4 == 0 or loop.last %}
+            </div>
+            <div class="clearfix"></div>
+            {%endif%}
+        <!-- Product -->
+
+        {% endfor %}
+
+        <div class="clearfix"></div>
+        <nav aria-label="document list paging" id="docpagi" max-size="5">
+            <ul class="pagination pagination-md pagination-flush">
+            </ul>
+        </nav>
+    </div>
+    <script>
+        $(function () {
+            var page = {{ curpage }};
+            var year = '{{ year }}';
+            var tag = '{{ tag }}';
+            if (!page)
+                page = 1;
+            pageurl = "";
+
+            if(year)
+            {
+                pageurl = "/fh/casts_date/{{year}}/__id__";
+            }
+            else if(tag)
+            {
+                pageurl = "/fh/casts_tag/{{tag}}/__id__";
+            }
+            else {
+                pageurl = "/fh/casts/__id__";
+            }
+            $(".pagination").createPage({
+                totalPage: {{ pages }},
+                currPage: page,
+                link_to: pageurl
+        		});
+        })
+    </script>
+</div>
+{%endblock%}

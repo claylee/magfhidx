@@ -1,0 +1,131 @@
+
+<html>
+<head>
+    <title>{{title}} - Torrent Search Engine - Tor01</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Wish shop project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/static/wish/styles/bootstrap4/bootstrap.min.css">
+    <link href="/static/wish/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/wish/plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/static/wish/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="/static/wish/styles/categories.css">
+    <link rel="stylesheet" type="text/css" href="/static/wish/styles/categories_responsive.css">
+</head>
+<body>
+  <header class="border border-top-0 navbar-expand-lg navbar-light bg-light">
+    <div class="row" style="">
+      <a class="navbar-brand mr-auto mr-lg-0 col-2" href="/">
+        <img height="32" style="line-height:1.2em;margin-top: 10px;margin-left:12px" src="/static/TitleLogoTop.png" />
+      </a>
+      <form class="container mr-auto mr-lg-0 mt-3 mb-3 col-10 col-lg-8 " action="/search">
+        <div class="input-group input-group-md">
+          <input class="form-control" name="word" type="text" value="{{stext}}" />
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-outline-secondary">开始搜索</button>
+          </div>
+        </div>
+      </form>
+      <div class="col-lg-2 col-sm-0">
+      </div>
+    </div>
+  </header>
+
+  <!-- Header -->
+
+  <header class="header">
+    <div class="header_inner d-flex flex-row align-items-center justify-content-start">
+      <div class="logo"><a href="#">Wish</a></div>
+      <nav class="main_nav">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="categories.html">clothes</a></li>
+          <li><a href="categories.html">accessories</a></li>
+          <li><a href="categories.html">lingerie</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+      <div class="header_content ml-auto">
+        <div class="search header_search">
+          <form action="#">
+            <input type="search" class="search_input" required="required">
+            <button type="submit" id="search_button" class="search_button"><img src="/static/wish/images/magnifying-glass.svg" alt=""></button>
+          </form>
+        </div>
+        <div class="shopping">
+          <!-- Cart -->
+          <a href="#">
+            <div class="cart">
+              <img src="/static/wish/images/shopping-bag.svg" alt="">
+              <div class="cart_num_container">
+                <div class="cart_num_inner">
+                  <div class="cart_num">1</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- Star -->
+          <a href="#">
+            <div class="star">
+              <img src="/static/wish/images/star.svg" alt="">
+              <div class="star_num_container">
+                <div class="star_num_inner">
+                  <div class="star_num">0</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- Avatar -->
+          <a href="#">
+            <div class="avatar">
+              <img src="/static/wish/images/avatar.svg" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
+    </div>
+  </header>
+
+  <!-- Menu -->
+
+  <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+    <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+    <div class="logo menu_mm"><a href="#">Wish</a></div>
+    <div class="search">
+      <form action="#">
+        <input type="search" class="search_input menu_mm" required="required">
+        <button type="submit" id="search_button_menu" class="search_button menu_mm"><img class="menu_mm" src="/static/wish/images/magnifying-glass.svg" alt=""></button>
+      </form>
+    </div>
+    <nav class="menu_nav">
+      <ul class="menu_mm">
+        <li class="menu_mm"><a href="/">磁链搜索</a></li>
+        <li class="menu_mm"><a href="#">热门电影</a></li>
+        <li class="menu_mm"><a href="/fh/fhs">番号大全</a></li>
+        <li class="menu_mm"><a href="/fh/casts">女优排行</a></li>
+        <li class="menu_mm"><a href="/fh/publishers">番号系列</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="super_container">
+    {%block body%}{%endblock%}
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">megnet search. v1.0.2</p>
+    </div>
+  </footer>
+    <script src="/static/wish/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/wish/styles/bootstrap4/popper.js"></script>
+    <script src="/static/wish/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="/static/wish/plugins/easing/easing.js"></script>
+    <script src="/static/wish/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="/static/wish/plugins/Isotope/isotope.pkgd.min.js"></script>
+    <script src="/static/wish/plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.js"></script>
+    <script src="/static/wish/plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="/static/wish/js/categories_custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{% extends "fh/fhbase.html" %}
+
+{% block title %}{{cast['name']}}合集{{total}}部番号-第{{ curpage }}页{% endblock %}
+
+{% block metakeywords %}{{cast['name']}},{{",".join(cast['tags'])}},女优{% endblock %}
+
+{% block metadesc %}{{cast['desc'][0]}}{% endblock %}
+
+{%block body%}
+<div class="women_main">
+    <input type="hidden" class="indextype" value="{{ indextype }}" />
+
+    <div class="col-md-9 w_content">
+        <div class="single_left">
+            <div class="grid images_3_of_2">
+                <img src="{{cast['img']}}"/>
+                <div class="clearfix"></div>
+            </div>
+            <div class="desc1 span_3_of_2">
+                <h2>{{cast['name']}}</h2>
+                <div class="det_nav">
+                    <strong>别名：</strong>{{cast['alias']}}
+                </div>
+                <div class="det_nav">
+                    <strong>三围：</strong>{{cast['body']}}
+                </div>
+                <div class="det_nav">
+                    <span class="card-text"><strong>出生日期：</strong>{{cast['birthdate']}}</span><br /></div>
+                <div class="det_nav">
+                    <span class="card-text"><strong>出道时间：</strong>{{cast['castdate']}}</span><br />
+                </div>
+                <div class="det_nav">
+                    <strong>点赞：</strong>{{cast['hot']}}
+                </div>
+
+                <span class="card-text">
+                    {% for c in cast.tags %}
+                      <a href="/fh/casts_tag/{{c}}"><span class="badge badge-primary">{{c}}</span></a>
+                    {%endfor%}
+                </span><br />
+                <span class="card-text"> </span>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="single-bottom1">
+            <h6>介绍</h6>
+            <p class="prod-desc">{{cast['desc'][0]}}</p>
+        </div>
+        <div class="women">
+            <a href="#">
+                <h4>{{cast['name']}} 参演番号 <span></span> </h4>
+            </a>
+            <div class="clearfix"></div>
+        </div>
+        {% for mi in fhlist%}
+        {% if (loop.index - 1) % 4 == 0%}
+        <div class="grids_of_4">
+            {%endif%}
+            <div class="grid1_of_4">
+                <div class="content_box">
+                    <div class="view view-fifth">
+                        <a href="/fh/fhhash/{{mi['no']}}/{{cast['name']}}" target="_blank">
+                            <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                            <div class="mask">
+                                <div class="info">Quick View</div>
+                            </div>
+                        </a>
+                    </div>
+                    <h4><a target="_blank" href="/fh/fhhash/{{mi['no']}}/{{cast['name']}}">{{mi['no']}}</a></h4>
+                    <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                </div>
+            </div>
+            {% if (loop.index) % 4 == 0 or loop.last %}
+        </div>
+        <div class="clearfix"></div>
+        {%endif%}
+        <!-- Product -->
+
+        {% endfor %}<div class="clearfix"></div>
+        <nav class="col-12" aria-label="document list paging" id="docpagi" max-size="5">
+            <ul class="pagination pagination-md pagination-flush">
+            </ul>
+        </nav>
+    </div>
+
+    <div class="col-md-3">
+        <div class="w_sidebar">
+            <div class="w_nav1">
+                <h4>All</h4>
+                <ul>
+                    <li><a href="/fh/fhs">番号大全</a></li>
+                    <li><a href="/fh/casts">女优大全</a></li>
+                    <li><a href="/fh/publishers">番号系列</a></li>
+                </ul>
+            </div>
+            <h3>filter by</h3>
+            <section class="sky-form">
+                <h4>演员标签</h4>
+                <div class="row1 scroll-pane">
+                    <div class="col col-4">
+                          {% for c in cast.tags %}
+                            <a href="/fh/casts_tag/{{c}}"><i></i><span class="badge ">{{c}}</span></a>
+                          {%endfor%}
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <script>
+        $(function () {
+            var page = {{ curpage }};
+            if (!page)
+                page = 1;
+            $(".pagination").createPage({
+                totalPage: {{ pages }},
+                currPage: page,
+                link_to:"/fh/cast/{{cast['name']}}/__id__"
+            });
+        })
+    </script>
+</div>
+{%endblock%}

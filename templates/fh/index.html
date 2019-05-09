@@ -1,0 +1,75 @@
+{% extends "fh/base.html" %}
+
+{%block body%}
+<div class="container">
+    <div class="newsletter">
+        <div class="newsletter_content">
+            <div class="newsletter_image" style="background-image:url(/static/wish/images/newsletter.jpg)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title_container text-center">
+                            <div class="section_subtitle">only the best</div>
+                            <div class="section_title">Mag Searcher</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row newsletter_container">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="newsletter_form_container">
+                            <form action="/search">
+                                <input type="#" class="newsletter_input" required="required" placeholder="search torrent">
+                                <button type="submit" class="newsletter_button">开始搜索</button>
+                            </form>
+                        </div>
+                        <div class="newsletter_text">一个轻量的磁力搜索工具.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <nav class="footer_nav" data-reactid="18">
+                        <ul>
+                            <li><span data-reactid="19">热门搜索:</span>
+                            <li><a href="/search?word=%E6%B5%B7%E7%8E%8B&page=2" data-reactid="20">海王</a></li>
+                            <li><a href="/search?word=%E5%A4%A7%E9%BB%84%E8%9C%82" data-reactid="21">大黄蜂</a></li>
+                            <li><a href="/search?word=%E6%AD%BB%E4%BE%8D2" data-reactid="22">死侍2</a></li>
+                            <li><a href="/search?word=%E6%9D%A5%E7%94%B5%E7%8B%82%E5%93%8D" data-reactid="23">来电狂响</a></li>
+                            <li><a href="/search?word=%E9%BB%91%E9%95%9C%EF%BC%9A%E6%BD%98%E8%BE%BE%E6%96%AF%E5%A5%88%E5%9F%BA"
+                                    data-reactid="24">黑镜：潘达斯奈基 / 黑镜：2018圣诞特别篇 </a></li>
+                            <li><a href="/search?word=%E5%B0%8F%E5%81%B7%E5%AE%B6%E6%97%8F" data-reactid="25">小偷家族</a></li>
+                    </nav>
+                    <nav class="footer_nav">
+                        <ul>
+                            <li><span data-reactid="19">电影排行:</span></li>
+                            <li><a class="nav-link" href="/fh/mvhot" data-reactid="20">影院热映</a></li>
+                            <li><a class="nav-link" href="/fh/mvtop" data-reactid="21">豆瓣口碑</a></li>
+                            <li><span data-reactid="19">
+                                    <a class="nav-link" href="/newdata" data-reactid="20">最新收录</a>
+                                </span></li>
+                            <li><a class="nav-link" href="/fanhaolist" data-reactid="20">番号大全</a></li>
+                        </ul>
+                    </nav>
+                    <div class="copyright">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                        template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> Colorlib - More
+                        Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -
+                        Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+    </script>
+</div>
+
+
+{%endblock%}

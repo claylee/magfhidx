@@ -1,0 +1,155 @@
+{% extends "fh/fhbase.html" %}
+
+{% block title %}{{fh.no}} - {{cast}} - {{fh['publisher']}}{% endblock %}
+
+{% block metakeywords %}{{",".join(fh['tags'])}}{% endblock %}
+
+{% block metadesc %}番号：{{fh['no']}}的磁力链接。演员：{{cast}},片商:{{fh['publisher']}},发行日期：{{fh['issuedate']}}{% endblock %}
+
+{%block body%}
+<div class="women_main">
+        <div name='douban' class="col-md-9 w_content" data-reactid="17">
+            <div class="shoping_bag">
+                <h4><img src="/static/wish/images/bag1.png">{{fh.no}} / 磁力链接 <span></span></h4>
+                <ul class="s_art">
+                    <li><img src="/static/wish/images/art1.png"></li>
+                    <li><span> {{fh.hot}}</span></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            {%if not request.cookies.get('s_lmt') or request.cookies.get('s_lmt') == "1"%}
+                <div class="shoping_bag1">
+                    受限模式下不显示下载信息
+                </div>
+            {% elif hashlist|length == 0 %}
+                <div class="shoping_bag1">
+                    无磁链信息
+                </div>
+            {% else %}
+                {% for l in hashlist if not hashlist|length == 0 %}
+                <div class="shoping_bag1">
+                    <div class="shoping_left">
+                        <div class="shoping1_of_1">
+                            <img src="{{fh.img}}" class="img-responsive" alt="{{fh.no}}" />
+                        </div>
+                        <div class="shoping1_of_2">
+                            <h4><a target="_blank" href="/resdetail/{{l.info_hash}}">{{l.name}}</a> </h4>
+                            <span>{{l.category}} <b>{{l.extension}}</b>&nbsp;&nbsp;  <b>1</b> | 大小 :{{l.rescaleByteSize()}}</span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="shoping_right">
+                        <p>{{l.last_seen}} &nbsp;<span> hot:{{l.requests}}</span></p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                {% endfor%}
+            {% endif %}
+            <div class="clearfix"></div>
+            <div class="single-bottom1">
+                <h6>相关番号</h6>
+                {% for mi in linkfhs%}
+                {% if (loop.index - 1) % 4 == 0%}
+                <div class="grids_of_4">
+                    {%endif%}
+                    <div class="grid1_of_4">
+                        <div class="content_box">
+                            <div class="view view-fifth">
+                                <a href="/fh/fhhash/{{mi['no']}}/{{cast}}" target="_blank">
+                                    <img src="{{mi.img}}" class="img-responsive" alt="{{cast}}" />
+                                </a>
+                            </div>
+                            <h4><a target="_blank" href="/fh/fhhash/{{mi['no']}}/{{cast}}">{{mi['no']}}</a></h4>
+                            <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                        </div>
+                    </div>
+                    {% if (loop.index) % 4 == 0 or loop.last %}
+                </div>
+                <div class="clearfix"></div>
+                {%endif%}
+                <!-- Product -->
+
+                {% endfor %}
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="w_sidebar">
+                <div class="w_nav1">
+                    <img class="card-img-top" src="{{fh.img}}"/>
+                    <div class="card-header">
+                    </div>
+                </div>
+                <div class="w_nav1">
+                    <h4>简介</h4>
+                    <ul>
+                        <li>
+                            <p><strong>番号：</strong>{{fh.no}}</p>
+                        </li>
+                        <li>
+                            <p><strong>演出：</strong><a target="_blank" style="display:inline" href="/fh/cast/{{cast}}">{{cast}}</a></p>
+                        </li>
+                        <li>
+                            {% for c in fh.cast %}
+                            {{c}}
+                            {%endfor%}
+                        </li>
+                        <li><span>
+                          <strong>片商：</strong><a target="_blank" style="display:inline" href="/fh/publisher/{{fh.publisher}}">{{fh.publisher}}</a></span></li>
+                        <li><strong>发行：</strong>{{fh.issuedate}}</li>
+                        <li><strong>点赞：</strong>{{fh.hot}}</li>
+                        <li>
+                          {% for c in fh.tags %}
+                            <span class="badge badge-success">{{c}}</span>
+                          {%endfor%}
+                        </li>
+                    </ul>
+                    <div class="row1 scroll-pane">
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script>
+        $(function () {
+            return;
+            var turl = "https://api.douban.com/v2/movie/in_theaters";
+            var indextype = $(".indextype").val();
+            if (indextype == "top250") {
+                turl = "https://api.douban.com/v2/movie/top250?start=0&count=50";
+            }
+            else if (indextype == "theaters") {
+                turl = "https://api.douban.com/v2/movie/in_theaters";
+            }
+            $.ajax({
+                url: turl,
+                type: 'GET',
+                dataType: 'JSONP', // 处理Ajax跨域问题
+                success: function (data) {
+                    $('.indextitle').text(data.title)
+                    for (var mi in data.subjects) {
+                        mi = data.subjects[mi];
+                        var $miTemp = $(
+                            '<div class="col-sm-2"> \
+                <div class="card" style="width: 165;height:320; margin:12px;"> \
+                  <a class="movielink" target="_blank"><img class="card-img-top" style="height:200;" src="..." alt="Card image cap"></a> \
+                  <div class="card-body"> \
+                    <a class="movielink" target="_blank"><p class="card-title">Card title</p></a> \
+                    <p class="card-text"></p> \
+                  </div> \
+              </div></div>');
+                        $miTemp.find('.card-title').text(mi.title);
+                        $miTemp.find('.card-img-top').attr("src", mi.images.small);
+                        for (var i in mi.genres) {
+                            var tag = mi.genres[i];
+                            $miTemp.find('.card-text').append($('<span class="badge badge-primary" style="margin:2px">' + tag + '</span>'))
+                        }
+                        $miTemp.find('.movielink').attr("href", "http://www.tor01.com/search?word=" + encodeURIComponent(mi.title));
+
+                        $('div[name="douban"]>div').append($miTemp);
+                    }
+                }
+            });
+        });
+    </script>
+</div>
+{%endblock%}

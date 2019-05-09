@@ -1,0 +1,19 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+{{ super() }}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+            <h1>404 Error. Page Not Found.</h1>
+            <p class="lead">
+            </p>
+            {% if not current_user.is_authenticated %}
+              <p>url missed. click "back" button to return.</p>
+            {% endif %}
+            <p>
+                <a class="btn btn-primary" href="/"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock body %}

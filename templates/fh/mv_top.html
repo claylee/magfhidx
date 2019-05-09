@@ -1,0 +1,83 @@
+{% extends "fh/fhbase.html" %}
+
+{% block title %}豆瓣口碑{% endblock %}
+{% block metareferrer %}no-referrer{% endblock %}
+
+{%block body%}
+<div class="women_main">
+    <input type="hidden" class="indextype" value="{{ indextype }}" />
+    <div class="col-md-3">
+        <div class="w_sidebar">
+            <div class="w_nav1">
+                <h4>All</h4>
+                <ul>
+                    <li><a href="/fh/mvtop">豆瓣口碑</a></li>
+                    <li><a href="/fh/mvhot">影院热映</a></li>
+                    <li><a href="/fh/fhs">番号大全</a></li>
+                    <li><a href="/fh/casts">女优排行</a></li>
+                    <li><a href="/fh/publishers">番号系列</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 w_content">
+        <div class="women">
+            <a href="#">
+                <h4>豆瓣口碑 - <span></span> </h4>
+            </a>
+            <ul class="w_nav">
+                <li>Sort : </li>
+                <li><a class="active" href="#">popular</a></li> |
+                <li><a href="#">new </a></li> |
+                <li><a href="#">discount</a></li> |
+                <li><a href="#">price: Low High </a></li>
+                <div class="clear"></div>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        {% for mi in mvs.subjects%}
+        {% if (loop.index - 1) % 4 == 0%}
+        <div class="grids_of_4">
+            {%endif%}
+            <div class="grid1_of_4">
+                <div class="content_box">
+                    <div class="view view-fifth">
+                        <a href="/search?word={{mi.title}}" target="_blank">
+                            <img src="{{mi.images.small}}" class="img-responsive" alt="{{mi['title']}}" />
+                            <div class="mask">
+                                <div class="info">Quick View</div>
+                            </div>
+                        </a>
+                    </div>
+                    <h4><a target="_blank" href="/search?word={{mi.title}}">{{mi['title']}}</a></h4>
+                    <p><strong>评分：</strong>{{mi['rating']['average']}}</p>
+                </div>
+            </div>
+            {% if (loop.index) % 4 == 0 or loop.last %}
+        </div>
+        <div class="clearfix"></div>
+        {%endif%}
+        <!-- Product -->
+
+        {% endfor %}
+
+        <div class="clearfix"></div>
+        <nav aria-label="document list paging" id="docpagi" max-size="5">
+            <ul class="pagination pagination-md pagination-flush">
+            </ul>
+        </nav>
+    </div>
+    <script>
+        $(function () {
+            var page = '{{ curpage }}';
+            if (!page)
+                page = 1;
+            $(".pagination").createPage({
+                totalPage: {{ pages }},
+                currPage: page,
+                link_to:"/fh/casts/__id__"
+                });
+        })
+    </script>
+</div>
+{%endblock%}
