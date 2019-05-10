@@ -238,3 +238,15 @@ def mvtop():
     jsoncontent = top()
     return render_template("/fh/mv_top.html",
         mvs = jsoncontent)
+
+
+@fh.route("/sitemap",methods = ["Get","POST"])
+@fh.route("/sitemap.xml",methods = ["Get","POST"])
+def sitemap():
+    return app.send_static_file('sitemap.xml')
+
+
+@fh.route("/sitemap_i1",methods = ["Get","POST"])
+@fh.route("/sitemap_i1.xml",methods = ["Get","POST"])
+def sitemap_i1():
+    return app.send_static_file('sitemap_r1.xml')
