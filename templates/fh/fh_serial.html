@@ -13,7 +13,7 @@
             <div class="">
               <ul class="megamenu skyblue">
               {% for mi in publist%}
-                <li class="">
+                <li class="col-md-3 border border-success">
                   <a class="color{{loop.index%10+1}}" target="_blank" href="/publisher/{{mi['pub']|urlencode|replace('/','[_]')|e|safe}}">{{mi['pub']}}  <span class="badge">{{mi['count']}}部</span>
                   </a>
                 </li>
