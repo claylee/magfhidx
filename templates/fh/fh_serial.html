@@ -3,7 +3,7 @@
 {%block body%}
 <div class="women_main">
     <input type="hidden" class="indextype" value="{{ indextype }}" />
-    <div class="col-md-9 w_content">
+    <div class="col-md-12 w_content">
         <div class="women">
             <a href="#">
                 <h4>番号系列<span></span> </h4>
@@ -11,9 +11,14 @@
             <div class="clearfix"></div>
         </div>
             <div class="">
-                {% for mi in publist if not mi == ''%}
-                <a href="/publisher/{{mi}}"><button class="btn btn-light" style="margin:8px; display:inline-block">{{mi}}</button></a>
-                {% endfor %}
+              <ul class="megamenu skyblue">
+              {% for mi in publist%}
+                <li class="">
+                  <a class="color{{loop.index%10+1}}" target="_blank" href="/publisher/{{mi['pub']|urlencode|replace('/','[_]')|e|safe}}">{{mi['pub']}}  <span class="badge">{{mi['count']}}部</span>
+                  </a>
+                </li>
+              {% endfor %}
+              </ul>
             </div>
         <!-- Product -->
     </div>

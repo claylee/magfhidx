@@ -1,72 +1,60 @@
-{% extends "fh/base.html" %}
-
+{% extends "fh/fhbase.html" %}
+{% block metakeywords %}日本番号,番号系列,女优排行,番号大全,女优番号,三上悠亚合集,TEK系列,SNIS系列" />{% endblock %}
 {%block body%}
-<div class="container">
-    <div class="newsletter">
-        <div class="newsletter_content">
-            <div class="newsletter_image" style="background-image:url(/static/wish/images/newsletter.jpg)"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="section_title_container text-center">
-                            <div class="section_subtitle">only the best</div>
-                            <div class="section_title">Mag Searcher</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row newsletter_container">
-                    <div class="col-lg-10 offset-lg-1">
-                        <div class="newsletter_form_container">
-                            <form action="/search">
-                                <input type="#" class="newsletter_input" required="required" placeholder="search torrent">
-                                <button type="submit" class="newsletter_button">开始搜索</button>
-                            </form>
-                        </div>
-                        <div class="newsletter_text">最新番号排行.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-      <div class="women">
+    <div class="women_main">
         <div class="col-md-3">
+          <div class="w_sidebar">
+              <section class="sky-form">
+                  <h4>热门系列</h4>
+                  <ul class="megamenu skyblue">
+                  {% for mi in publist%}
+                    <li class="">
+                      <a class="color{{loop.index%10+1}}" target="_blank" href="/publisher/{{mi['pub']|urlencode|replace('/','[_]')|e|safe}}">{{mi['pub']}}  <span class="badge">{{mi['count']}}部</span>
+                      </a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+              </section>
+          </div>
         </div>
         <div class="col-md-9 w_content">
           <div class="women">
               <a href="#">
-                  <h4>热门女优 <span></span> </h4>
+                  <h3>热门女优 <span></span> </h3>
               </a>
               <div class="clearfix"></div>
           </div>
           {% for mi in castlist%}
-            {% if (loop.index - 1) % 4 == 0%}
-            <div class="grids_of_4">
-                {%endif%}
-                <div class="grid1_of_4">
-                    <div class="content_box">
-                        <div class="view view-fifth">
-                            <a href="/fhhash/{{mi['no']}}" target="_blank">
-                                <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
-                                <div class="mask">
-                                    <div class="info">Quick View</div>
-                                </div>
-                            </a>
-                        </div>
-                        <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
-                        <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
-                    </div>
-                </div>
-                {% if (loop.index) % 4 == 0 or loop.last %}
-            </div>
-            <div class="clearfix"></div>
-            {%endif%}
-          {% endfor %}<div class="clearfix"></div>
+              {% if (loop.index - 1) % 4 == 0%}
+              <div class="grids_of_4">
+              {%endif%}
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/{{mi['name']}}" target="_blank">
+                              <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/{{mi['name']}}">{{mi['name']}}</a></h4>
+                      <p><strong>点赞：</strong>{{mi['hot']}}</p>
+                  </div>
+              </div>
+              {% if (loop.index) % 4 == 0 or loop.last %}
+              </div>
+              <div class="clearfix"></div>
+              {%endif%}
+          <!-- Product -->
 
+          {% endfor %}
+          <div class="clearfix"></div>
+          <br/>
 
             <div class="women">
                 <a href="#">
-                    <h4>热门番号 <span></span> </h4>
+                    <h3>热门番号 <span></span> </h3>
                 </a>
                 <div class="clearfix"></div>
             </div>
@@ -85,58 +73,55 @@
                               </a>
                           </div>
                           <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
-                          <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                          <p>{{mi['issuedate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
                       </div>
                   </div>
                   {% if (loop.index) % 4 == 0 or loop.last %}
               </div>
               <div class="clearfix"></div>
             {%endif%}
-          {% endfor %}<div class="clearfix"></div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <nav class="footer_nav" data-reactid="18">
-                        <ul>
-                            <li><span data-reactid="19">热门搜索:</span>
-                            <li><a href="/search?word=%E6%B5%B7%E7%8E%8B&page=2" data-reactid="20">海王</a></li>
-                            <li><a href="/search?word=%E5%A4%A7%E9%BB%84%E8%9C%82" data-reactid="21">大黄蜂</a></li>
-                            <li><a href="/search?word=%E6%AD%BB%E4%BE%8D2" data-reactid="22">死侍2</a></li>
-                            <li><a href="/search?word=%E6%9D%A5%E7%94%B5%E7%8B%82%E5%93%8D" data-reactid="23">来电狂响</a></li>
-                            <li><a href="/search?word=%E9%BB%91%E9%95%9C%EF%BC%9A%E6%BD%98%E8%BE%BE%E6%96%AF%E5%A5%88%E5%9F%BA"
-                                    data-reactid="24">黑镜：潘达斯奈基 / 黑镜：2018圣诞特别篇 </a></li>
-                            <li><a href="/search?word=%E5%B0%8F%E5%81%B7%E5%AE%B6%E6%97%8F" data-reactid="25">小偷家族</a></li>
-                    </nav>
-                    <nav class="footer_nav">
-                        <ul>
-                            <li><span data-reactid="19">电影排行:</span></li>
-                            <li><a class="nav-link" href="/mvhot" data-reactid="20">影院热映</a></li>
-                            <li><a class="nav-link" href="/mvtop" data-reactid="21">豆瓣口碑</a></li>
-                            <li><span data-reactid="19">
-                                    <a class="nav-link" href="/newdata" data-reactid="20">最新收录</a>
-                                </span></li>
-                            <li><a class="nav-link" href="/fanhaolist" data-reactid="20">番号大全</a></li>
-                        </ul>
-                    </nav>
-                    <div class="copyright">
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This
-                        template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> Colorlib - More
-                        Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -
-                        Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+          {% endfor %}
+          <br/>
+          <div class="clearfix"></div>
+
+          <div class="women">
+              <a href="#">
+                  <h3>最新番号 <span></span> </h3>
+              </a>
+              <div class="clearfix"></div>
+          </div>
+          {% for mi in fhnewlist%}
+            {% if (loop.index - 1) % 4 == 0%}
+            <div class="grids_of_4">
+                {%endif%}
+                <div class="grid1_of_4">
+                    <div class="content_box">
+                        <div class="view view-fifth">
+                            <a href="/fhhash/{{mi['no']}}" target="_blank">
+                                <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                                <div class="mask">
+                                    <div class="info">Quick View</div>
+                                </div>
+                            </a>
+                        </div>
+                        <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
+                        <p>{{mi['issuedate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
                     </div>
                 </div>
+                {% if (loop.index) % 4 == 0 or loop.last %}
             </div>
+            <div class="clearfix"></div>
+          {%endif%}
+          {% endfor %}
+          <div class="clearfix"></div>
+          <br/>
+          <div class="clearfix"></div>
         </div>
-    </footer>
+      </div>
+    <div class="clearfix"></div>
     <script>
 
     </script>
-</div>
 
 
 {%endblock%}

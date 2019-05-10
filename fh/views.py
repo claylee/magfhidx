@@ -22,19 +22,46 @@ from scrapyfh import queryhash as qh
 from models.movie import *
 import sys
 from models.fanhao import *
-
+from urllib import *
 
 @fh.route("/",methods = ["Get","POST"])
 def index():
     fh = Fanhao()
-    fh_arr = fh.load_fanhao().items()
-    fh_arr = fh_arr[1:8]
-
+    fh_arr = []#fh.load_fanhao().values()
+    idx_prev = 0
+    for c in fh.load_fanhao()['data'].values():
+        idx_prev +=1
+        if idx_prev > 8:
+            break
+        fh_arr.append(c)
+    #fh_arr = fh_arr[1:8]
+    print(fh_arr)
     cast = Cast()
-    cast_arr = cast.load_casts().items()[1:8]
+    cast_arr = []#cast.load_casts().items()
+    idx_prev = 0
+    for c in cast.load_casts().values():
+        idx_prev +=1
+        if idx_prev > 8:
+            break
+        cast_arr.append(c)
+
+    publist = []
+    fhdata = fh.load_fanhao()
+    idx_publisher = fh.load_fanhao()['publisher']
+    idx_prev = 0
+    for c in fhdata['publisher'].keys():
+        if len(idx_publisher[c]) < 100:
+            continue
+
+        idx_prev +=1
+        if idx_prev > 38:
+            break
+        if not c:
+            continue
+        publist.append({'pub':c,'count':len(idx_publisher[c])})
 
     return render_template("/fh/index.html", title = "fanhao "
-        ,castlist= cast_arr, fhlist = fh_arr)
+        ,castlist= cast_arr, fhlist = fh_arr, publist = publist, fhnewlist=[])
 
 @fh.route("/fhs/",methods = ["Get","POST"])
 @fh.route("/fhs/<page>",methods = ["Get","POST"])
@@ -111,10 +138,16 @@ def publishers():
     #cr = Cast()
     #cr.convert_to_shelve()
     fh = Fanhao()
-    jsondata = fh.load_fanhao()['publisher'].keys()
+    jsondata = fh.load_fanhao()
+    idx_pub = jsondata['publisher']
+    publist = []
+    for c in idx_pub.keys():
+        if not c:
+            continue
+        publist.append({'pub':c,'count':len(idx_pub[c])})
     #file = codecs.open("data/publisher.json",'r',encoding='utf-8')
     #jsondata = json.loads(file.read())
-    return render_template("/fh/fh_serial.html", publist = jsondata)
+    return render_template("/fh/fh_serial.html", publist = publist)
 
 @fh.route("/publisher/<pub>",methods = ["Get","POST"])
 @fh.route("/publisher/<pub>/<page>",methods = ["Get","POST"])
@@ -122,22 +155,32 @@ def publishers():
 @fh.route("/publisher_date/<pub>/<year>/<page>",methods = ["Get","POST"])
 def publisher(pub, year = "", page = 1 , pagesize = 20, sensfilter = True):
     #file = codecs.open("data/publisher.json",'r',encoding='utf-8')
+    pub = pub.replace("[_]","/")
     page = int(page)
+    year = str(year)
     #jsondata = json.loads(file.read())
     fhlistPub = []
     fhlist = []
     total = 0
     fh = Fanhao()
-    fhlistPub, total = fh.load_fanhao_publisher(pub, page, pagesize)
+    #fhlistPub, total = fh.load_fanhao_publisher(pub, page, pagesize)
+    idx_publisher = fh.load_fanhao()['publisher']
+    fhdata = fh.load_fanhao()['data']
 
     if year:
-        for fh in fhlistPub:
-            if fh['issuedate'].find(year)>-1:
-                fhlist.append(fh)
+        for fh in idx_publisher[pub]:
+            if not fh in fhdata:
+                continue
+            if fhdata[fh]['issuedate'].find(year)>-1:
+                fhlist.append(fhdata[fh])
     else:
-        fhlist = fhlistPub
+        for fh in idx_publisher[pub]:
+            if not fh in fhdata:
+                continue
+            fhlist.append(fhdata[fh])
 
-    totalpages = ceil(len(fhlist)/float(pagesize))
+    total = len(fhlist)
+    totalpages = ceil(total/float(pagesize))
     fhlist = fhlist[(page-1)*pagesize:(page-1)*pagesize + pagesize]
     return render_template("/fh/fh_serialfh.html", fanhaolist = fhlist, year=year, publisher=pub, pages = totalpages, curpage = page)
 
