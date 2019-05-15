@@ -211,6 +211,8 @@ def casts(page = 1 , year="", tag="", pagesize = 40, sensfilter = True):
 
 @fh.route("/cast/<cast>/",methods = ["Get","POST"])
 @fh.route("/cast/<cast>/<page>",methods = ["Get","POST"])
+@fh.route("/castfh/<cast>/",methods = ["Get","POST"])
+@fh.route("/castfh/<cast>/<page>",methods = ["Get","POST"])
 def cast(cast, page = 1 , pagesize = 8, sensfilter = True):
     #file = codecs.open("data/casts.json",'r',encoding='utf-8')
     #jsondata = json.loads(file.read())
@@ -250,3 +252,20 @@ def sitemap():
 @fh.route("/sitemap_i1.xml",methods = ["Get","POST"])
 def sitemap_i1():
     return app.send_static_file('sitemap_r1.xml')
+
+@fh.route('/fh/<path:page_name>/')
+def redirectNew(page_name=''):
+    print('999++++++++++++++++++')
+    print('pagename:',page_name)
+    print '''
+    UserAgent: {}
+    Method   : {}
+    GetArgs  : {}
+    PostArgs : {}
+    '''.format(
+        request.headers.get('User-Agent'),
+        request.method,
+        request.args,
+        request.form,
+    )
+    return redirect('/{0}'.decode('utf-8').format(page_name), code=301)
