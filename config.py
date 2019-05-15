@@ -28,6 +28,8 @@ class Config(object):
 	SECURITY_POST_LOGOUT_VIEW = "/admin/"
 	SECURITY_POST_REGISTER_VIEW = "/admin/"
 
+	MAG_DOWNLOAD_SITE1 = "http://www.bt4mag.com"
+
 	# Flask-Security features
 	SECURITY_REGISTERABLE = True
 	SECURITY_SEND_REGISTER_EMAIL = False

@@ -53,6 +53,9 @@ from api_v1 import api as api_blueprint
 app.register_blueprint(fh_blueprint,url_prefix="/")
 app.register_blueprint(api_blueprint,url_prefix="/hashcode/api")
 
+jinja_environ = app.create_jinja_environment()
+jinja_environ.globals['Config'] = app.config
+
 def presetLogger():
     if os.path.exists(LOG_PATH):
         pass

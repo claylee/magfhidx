@@ -255,8 +255,6 @@ def sitemap_i1():
 
 @fh.route('/fh/<path:page_name>/')
 def redirectNew(page_name=''):
-    print('999++++++++++++++++++')
-    print('pagename:',page_name)
     print '''
     UserAgent: {}
     Method   : {}
