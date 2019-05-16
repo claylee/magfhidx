@@ -26,42 +26,7 @@ from urllib import *
 
 @fh.route("/",methods = ["Get","POST"])
 def index():
-    fh = Fanhao()
-    fh_arr = []#fh.load_fanhao().values()
-    idx_prev = 0
-    for c in fh.load_fanhao()['data'].values():
-        idx_prev +=1
-        if idx_prev > 8:
-            break
-        fh_arr.append(c)
-    #fh_arr = fh_arr[1:8]
-    print(fh_arr)
-    cast = Cast()
-    cast_arr = []#cast.load_casts().items()
-    idx_prev = 0
-    for c in cast.load_casts().values():
-        idx_prev +=1
-        if idx_prev > 8:
-            break
-        cast_arr.append(c)
-
-    publist = []
-    fhdata = fh.load_fanhao()
-    idx_publisher = fh.load_fanhao()['publisher']
-    idx_prev = 0
-    for c in fhdata['publisher'].keys():
-        if len(idx_publisher[c]) < 100:
-            continue
-
-        idx_prev +=1
-        if idx_prev > 38:
-            break
-        if not c:
-            continue
-        publist.append({'pub':c,'count':len(idx_publisher[c])})
-
-    return render_template("/fh/index.html", title = "fanhao "
-        ,castlist= cast_arr, fhlist = fh_arr, publist = publist, fhnewlist=[])
+    return render_template("/fh/index.html")
 
 @fh.route("/fhs/",methods = ["Get","POST"])
 @fh.route("/fhs/<page>",methods = ["Get","POST"])
