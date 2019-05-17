@@ -80,6 +80,12 @@ def fhhash(fh,cast):
                     fhjson = f
                     break
             break
+    castfile.close()
+
+    fh = Fanhao()
+    linkPublisherfhs,link_pub_totals = fh.load_fanhao_publisher(fhjson['publisher'],1,12)
+    print("linkPublisherfhs")
+    print(linkPublisherfhs)
 
     if s_lmt and s_lmt == "0":
         # results = SearchHash.query.filter(
@@ -93,7 +99,8 @@ def fhhash(fh,cast):
 
 
     lidx = random.randint(1,len(linkfhs))
-    return render_template("/fh/fh_fhhash.html", fh = fhjson, cast = cast, hashlist = results, linkfhs = linkfhs[lidx:lidx+24])
+    return render_template("/fh/fh_fhhash.html", fh = fhjson, cast = cast, hashlist = results
+        , linkfhs = linkfhs[lidx:lidx+12], link_pub_fhs = linkPublisherfhs, link_pub_totals = link_pub_totals)
 
 @fh.route("/publishers/",methods = ["Get","POST"])
 def publishers():

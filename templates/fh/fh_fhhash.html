@@ -8,9 +8,43 @@
 
 {%block body%}
 <div class="women_main">
+  <div class="col-md-3">
+      <div class="w_sidebar">
+          <div class="w_nav1">
+              <img class="card-img-top" src="{{fh.img}}"/>
+              <div class="card-header">
+              </div>
+          </div>
+          <div class="w_nav1">
+              <h4>简介</h4>
+              <ul>
+                  <li>
+                      <p><strong>番号：</strong>{{fh.no}}</p>
+                  </li>
+                  <li>
+                      <p><strong>演出：</strong><a target="_blank" style="display:inline" href="/cast/{{cast}}">{{cast}}</a></p>
+                  </li>
+                  <li>
+                      {% for c in fh.cast %}
+                      {{c}}
+                      {%endfor%}
+                  </li>
+                  <li><span>
+                    <strong>片商：</strong><a target="_blank" style="display:inline" href="/publisher/{{fh.publisher}}">{{fh.publisher}}</a></span></li>
+                  <li><strong>发行：</strong>{{fh.issuedate}}</li>
+                  <li><strong>点赞：</strong>{{fh.hot}}</li>
+                  <li>
+                    {% for c in fh.tags %}
+                      <span class="badge badge-success">{{c}}</span>
+                    {%endfor%}
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
         <div name='douban' class="col-md-9 w_content" data-reactid="17">
             <div class="shoping_bag">
-                <h4><img src="/static/wish/images/bag1.png">{{fh.no}} / 磁力链接 <span></span></h4>
+                <h4><img src="/static/wish/images/bag1.png">{{fh.no}} / 磁力链接下载 <span></span></h4>
                 <ul class="s_art">
                     <li><img src="/static/wish/images/art1.png"></li>
                     <li><span> {{fh.hot}}</span></li>
@@ -18,13 +52,45 @@
                 <div class="clearfix"></div>
             </div>
             <div class="shoping_bag1">
-                <h6>下载地址</h6>
-                <a href="{{ config['MAG_DOWNLOAD_SITE1'] }}/search?word={{fh.no}}" target="_blank">磁力风搜索此部作品</a>
-                <a href="{{ config['MAG_DOWNLOAD_SITE2'] }}/search?word={{fh.no}}&page=1" target="_blank">cilimao下载</a>
+              <div class="shoping_left">
+                  <div class="shoping1_of_1">
+                      <img src="{{fh.img}}" class="img-responsive" alt="{{fh.no}}" />
+                  </div>
+                  <div class="shoping1_of_2">
+                      <h4>磁力风</h4>
+                      <span><a href="{{ config['MAG_DOWNLOAD_SITE1'] }}/search?word={{fh.no}}" target="_blank">在磁力风搜索此部作品</a></span>
+                  </div>
+                  <div class="clearfix"></div>
+              </div>
+              <div class="shoping_right">
+                  <p><a href="{{ config['MAG_DOWNLOAD_SITE1'] }}/search?word={{fh.no}}" target="_blank">点击跳转</a></p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="shoping_bag1">
+              <div class="shoping_left">
+                  <div class="shoping1_of_1">
+                      <img src="{{fh.img}}" class="img-responsive" alt="{{fh.no}}" />
+                  </div>
+                  <div class="shoping1_of_2">
+                      <h4>cilimao</h4>
+                      <span><a href="{{ config['MAG_DOWNLOAD_SITE2'] }}/search?word={{fh.no}}&page=1" target="_blank">在cilimao搜索此部作品</a></span>
+                  </div>
+                  <div class="clearfix"></div>
+              </div>
+              <div class="shoping_right">
+                  <p><a href="{{ config['MAG_DOWNLOAD_SITE2'] }}/search?word={{fh.no}}&page=1" target="_blank">点击跳转</a></p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="shoping_bag2">
+                <h6>本站不提供下载，只提供跳转。可能会遇到下载网站打不开的情况。</h6>
             </div>
             <div class="clearfix"></div>
             <div class="single-bottom1">
-                <h6>相关番号</h6>
+                <h6>{{cast}}出演 - 其他番号</h6>
                 {% for mi in linkfhs %}
                 {% if (loop.index - 1) % 4 == 0%}
                 <div class="grids_of_4">
@@ -49,43 +115,33 @@
                 {% endfor %}
                 <div class="clearfix"></div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="w_sidebar">
-                <div class="w_nav1">
-                    <img class="card-img-top" src="{{fh.img}}"/>
-                    <div class="card-header">
+            <div class="single-bottom1">
+                <h6>{{fh.publisher}}系列 - 其他番号 {{link_pub_totals}}部</h6>
+                {% for mi in link_pub_fhs %}
+                {% if (loop.index - 1) % 4 == 0%}
+                <div class="grids_of_4">
+                    {%endif%}
+                    <div class="grid1_of_4">
+                        <div class="content_box">
+                            <div class="view view-fifth">
+                                <a href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}" target="_blank">
+                                    <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast'][0]}}" />
+                                </a>
+                            </div>
+                            <h4><a target="_blank" href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}">{{mi['no']}}</a></h4>
+                            <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                        </div>
                     </div>
+                    {% if (loop.index) % 4 == 0 or loop.last %}
                 </div>
-                <div class="w_nav1">
-                    <h4>简介</h4>
-                    <ul>
-                        <li>
-                            <p><strong>番号：</strong>{{fh.no}}</p>
-                        </li>
-                        <li>
-                            <p><strong>演出：</strong><a target="_blank" style="display:inline" href="/cast/{{cast}}">{{cast}}</a></p>
-                        </li>
-                        <li>
-                            {% for c in fh.cast %}
-                            {{c}}
-                            {%endfor%}
-                        </li>
-                        <li><span>
-                          <strong>片商：</strong><a target="_blank" style="display:inline" href="/publisher/{{fh.publisher}}">{{fh.publisher}}</a></span></li>
-                        <li><strong>发行：</strong>{{fh.issuedate}}</li>
-                        <li><strong>点赞：</strong>{{fh.hot}}</li>
-                        <li>
-                          {% for c in fh.tags %}
-                            <span class="badge badge-success">{{c}}</span>
-                          {%endfor%}
-                        </li>
-                    </ul>
-                    <div class="row1 scroll-pane">
-                    </div>
-                </div>
+                <div class="clearfix"></div>
+                {%endif%}
+                <!-- Product -->
+
+                {% endfor %}
+                <div class="clearfix"></div>
             </div>
-    </div>
+        </div>
     <script>
         $(function () {
             return;
