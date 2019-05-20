@@ -2,12 +2,7 @@ import os
 import sqlite3
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, Numeric
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.sql import func
 import sqlalchemy
-from sqlalchemy.ext.declarative import declarative_base,DeclarativeMeta
-from database import db
-from flask_admin.contrib.sqla import ModelView
-from sqlalchemy.engine.result import RowProxy
 import json
 import datetime
 import shelve
