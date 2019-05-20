@@ -41,14 +41,14 @@
             <div class="grid1_of_4">
                 <div class="content_box">
                     <div class="view view-fifth">
-                        <a href="/search?word={{mi.title}}" target="_blank">
+                        <a href="{{ config['MAG_DOWNLOAD_SITE1'] }}/search?word={{mi.title}}" target="_blank">
                             <img src="{{mi.images.small}}" class="img-responsive" alt="{{mi['title']}}" />
                             <div class="mask">
                                 <div class="info">Quick View</div>
                             </div>
                         </a>
                     </div>
-                    <h4><a target="_blank" href="/search?word={{mi.title}}">{{mi['title']}}</a></h4>
+                    <h4><a target="_blank" href="{{ config['MAG_DOWNLOAD_SITE1'] }}/search?word={{mi.title}}">{{mi['title']}}</a></h4>
                     <p><strong>评分：</strong>{{mi['rating']['average']}}</p>
                 </div>
             </div>

@@ -1,142 +1,520 @@
-{% extends "fh/base.html" %}
-
+{% extends "fh/fhbase.html" %}
+{% block title %}番号大全首页{% endblock %}
+{% block metakeywords %}番号,日本番号,番号系列,女优排行,番号大全,女优番号,三上悠亚合集,TEK系列,SNIS系列{% endblock %}
 {%block body%}
-<div class="container">
-    <div class="newsletter">
-        <div class="newsletter_content">
-            <div class="newsletter_image" style="background-image:url(/static/wish/images/newsletter.jpg)"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="section_title_container text-center">
-                            <div class="section_subtitle">only the best</div>
-                            <div class="section_title">Mag Searcher</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row newsletter_container">
-                    <div class="col-lg-10 offset-lg-1">
-                        <div class="newsletter_form_container">
-                            <form action="/search">
-                                <input type="#" class="newsletter_input" required="required" placeholder="search torrent">
-                                <button type="submit" class="newsletter_button">开始搜索</button>
-                            </form>
-                        </div>
-                        <div class="newsletter_text">最新番号排行.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-      <div class="women">
+    <div class="women_main">
         <div class="col-md-3">
+          <div class="w_sidebar">
+              <section class="sky-form">
+                  <h4>热门系列</h4>
+                  <ul class="megamenu skyblue"><li class="showhide" style="display: none;"><span class="title">MENU</span><span class="icon1"></span><span class="icon2"></span></li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color2" target="_blank" href="/publisher/S1NO.1STYLE">S1NO.1STYLE  <span class="badge">988部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color3" target="_blank" href="/publisher/%E3%83%A9%E3%82%B0%E3%82%B8%E3%83%A5TV">ラグジュTV  <span class="badge">440部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color4" target="_blank" href="/publisher/%C2%A0">&nbsp;  <span class="badge">178部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color5" target="_blank" href="/publisher/SODstar">SODstar  <span class="badge">107部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color6" target="_blank" href="/publisher/S%E7%B4%9A%E7%B4%A0%E4%BA%BA">S級素人  <span class="badge">104部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color7" target="_blank" href="/publisher/IDEAPOCKET">IDEAPOCKET  <span class="badge">374部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color8" target="_blank" href="/publisher/%E6%BA%9C%E6%B1%A0%E4%BA%94%E9%83%8E">溜池五郎  <span class="badge">116部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color9" target="_blank" href="/publisher/PRESTIGE">PRESTIGE  <span class="badge">845部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color10" target="_blank" href="/publisher/ALICEJAPAN">ALICEJAPAN  <span class="badge">124部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color1" target="_blank" href="/publisher/%E3%83%86%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5">ティッシュ  <span class="badge">526部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color2" target="_blank" href="/publisher/MOODYZ">MOODYZ  <span class="badge">406部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color3" target="_blank" href="/publisher/GLAMOROUS">GLAMOROUS  <span class="badge">115部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color4" target="_blank" href="/publisher/SOD">SOD  <span class="badge">341部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color5" target="_blank" href="/publisher/MAXA">MAXA  <span class="badge">176部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color6" target="_blank" href="/publisher/PREMIUM">PREMIUM  <span class="badge">110部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color7" target="_blank" href="/publisher/EBODY">EBODY  <span class="badge">237部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color8" target="_blank" href="/publisher/SOD%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%88">SODクリエイト  <span class="badge">204部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color9" target="_blank" href="/publisher/Madonna">Madonna  <span class="badge">527部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color10" target="_blank" href="/publisher/KMPVR">KMPVR  <span class="badge">125部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color1" target="_blank" href="/publisher/GIGA">GIGA  <span class="badge">104部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color2" target="_blank" href="/publisher/WANZ">WANZ  <span class="badge">194部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color3" target="_blank" href="/publisher/%E6%9C%AC%E4%B8%AD">本中  <span class="badge">227部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color4" target="_blank" href="/publisher/MAXING">MAXING  <span class="badge">343部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color5" target="_blank" href="/publisher/Fitch">Fitch  <span class="badge">198部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color6" target="_blank" href="/publisher/KMP">KMP  <span class="badge">402部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color7" target="_blank" href="/publisher/Calen">Calen  <span class="badge">103部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color8" target="_blank" href="/publisher/ATTACKERS">ATTACKERS  <span class="badge">189部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color9" target="_blank" href="/publisher/kawaii">kawaii  <span class="badge">403部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color10" target="_blank" href="/publisher/%E9%BE%8D%E7%B8%9B">龍縛  <span class="badge">130部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color1" target="_blank" href="/publisher/OPPAI">OPPAI  <span class="badge">191部</span>
+                      </a>
+                    </li>
+
+                    <li class="" style="display: inline-block;">
+                      <a class="color2" target="_blank" href="/publisher/ABSOLUTELYPERFEC">ABSOLUTELYPERFEC  <span class="badge">202部</span>
+                      </a>
+                    </li>
+
+                  </ul>
+              </section>
+          </div>
         </div>
         <div class="col-md-9 w_content">
           <div class="women">
               <a href="#">
                   <h4>热门女优 <span></span> </h4>
               </a>
+              <div class="w_nav"><a class="active" href="/casts">查看更多</a></div>
               <div class="clearfix"></div>
           </div>
-          {% for mi in castlist%}
-            {% if (loop.index - 1) % 4 == 0%}
-            <div class="grids_of_4">
-                {%endif%}
-                <div class="grid1_of_4">
-                    <div class="content_box">
-                        <div class="view view-fifth">
-                            <a href="/fhhash/{{mi['no']}}" target="_blank">
-                                <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
-                                <div class="mask">
-                                    <div class="info">Quick View</div>
-                                </div>
-                            </a>
-                        </div>
-                        <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
-                        <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
-                    </div>
-                </div>
-                {% if (loop.index) % 4 == 0 or loop.last %}
-            </div>
-            <div class="clearfix"></div>
-            {%endif%}
-          {% endfor %}<div class="clearfix"></div>
 
+
+              <div class="grids_of_4">
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/杏树纱奈" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/5a4103a711df6.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/杏树纱奈">杏树纱奈</a></h4>
+                      <p><strong>点赞：</strong>1512</p>
+                  </div>
+              </div>
+
+          <!-- Product -->
+
+
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/今永纱奈" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/jinyongshanai.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/今永纱奈">今永纱奈</a></h4>
+                      <p><strong>点赞：</strong>16270</p>
+                  </div>
+              </div>
+
+          <!-- Product -->
+
+
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/初野心" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/chuyexin.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/初野心">初野心</a></h4>
+                      <p><strong>点赞：</strong>2804</p>
+                  </div>
+              </div>
+
+          <!-- Product -->
+
+
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/小西悠" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/xiaoxiyou.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/小西悠">小西悠</a></h4>
+                      <p><strong>点赞：</strong>3303</p>
+                  </div>
+              </div>
+
+              </div>
+              <div class="clearfix"></div>
+
+          <!-- Product -->
+
+
+
+              <div class="grids_of_4">
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/秋吉花音" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/qiujihuayin.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/秋吉花音">秋吉花音</a></h4>
+                      <p><strong>点赞：</strong>4126</p>
+                  </div>
+              </div>
+
+          <!-- Product -->
+
+
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/大杜若羽" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/5a411b63c8bb1.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/大杜若羽">大杜若羽</a></h4>
+                      <p><strong>点赞：</strong>1743</p>
+                  </div>
+              </div>
+
+          <!-- Product -->
+
+
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/木下彩奈" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/muxiacainai.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/木下彩奈">木下彩奈</a></h4>
+                      <p><strong>点赞：</strong>2803</p>
+                  </div>
+              </div>
+
+          <!-- Product -->
+
+
+
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/荻野舞" target="_blank">
+                              <img src="http://pic.mmyszx.com/pic/starpic/diyewu.jpg" class="img-responsive" alt="">
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/荻野舞">荻野舞</a></h4>
+                      <p><strong>点赞：</strong>5712</p>
+                  </div>
+              </div>
+
+              </div>
+              <div class="clearfix"></div>
+
+          <!-- Product -->
+
+
+          <div class="clearfix"></div>
+          <br>
 
             <div class="women">
                 <a href="#">
                     <h4>热门番号 <span></span> </h4>
                 </a>
+                <div class="w_nav"><a class="active" href="/fhs">查看更多</a></div>
                 <div class="clearfix"></div>
             </div>
-            {% for mi in fhlist%}
-              {% if (loop.index - 1) % 4 == 0%}
+
+
               <div class="grids_of_4">
-                  {%endif%}
+
                   <div class="grid1_of_4">
                       <div class="content_box">
                           <div class="view view-fifth">
-                              <a href="/fhhash/{{mi['no']}}" target="_blank">
-                                  <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                              <a href="/fhhash/AVOP-263/仓多真央" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/AVOP-263.jpg" class="img-responsive" alt="[u'\u4ed3\u591a\u771f\u592e']">
                                   <div class="mask">
                                       <div class="info">Quick View</div>
                                   </div>
                               </a>
                           </div>
-                          <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
-                          <p>{{mi['castdate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                          <h4><a target="_blank" href="/fhhash/AVOP-263/仓多真央">AVOP-263</a></h4>
+                          <p>2016-09-01 <strong>点赞：</strong>1701</p>
                       </div>
                   </div>
-                  {% if (loop.index) % 4 == 0 or loop.last %}
+
+
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/AVOP-262/笑果りょう" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/5a42841aae37d.jpg" class="img-responsive" alt="[u'\u7b11\u679c\u308a\u3087\u3046']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/AVOP-262/笑果りょう">AVOP-262</a></h4>
+                          <p>2016-09-01 <strong>点赞：</strong>1383</p>
+                      </div>
+                  </div>
+
+
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/MXGS-949/神谷瑠里" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/MXGS-949.jpg" class="img-responsive" alt="[u'\u795e\u8c37\u7460\u91cc']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/MXGS-949/神谷瑠里">MXGS-949</a></h4>
+                          <p>2017-04-16 <strong>点赞：</strong>1164</p>
+                      </div>
+                  </div>
+
+
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/MXGS-948/阳向纱耶香" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/MXGS-948.jpg" class="img-responsive" alt="[u'\u9633\u5411\u7eb1\u8036\u9999']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/MXGS-948/阳向纱耶香">MXGS-948</a></h4>
+                          <p>2017-04-16 <strong>点赞：</strong>1577</p>
+                      </div>
+                  </div>
+
               </div>
               <div class="clearfix"></div>
-            {%endif%}
-          {% endfor %}<div class="clearfix"></div>
+
+
+
+              <div class="grids_of_4">
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/AVOP-265/向井蓝" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/AVOP-265.jpg" class="img-responsive" alt="[u'\u5411\u4e95\u84dd']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/AVOP-265/向井蓝">AVOP-265</a></h4>
+                          <p>2016-09-01 <strong>点赞：</strong>1017</p>
+                      </div>
+                  </div>
+
+
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/AVOP-264/大槻响" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/AVOP-264.jpg" class="img-responsive" alt="[u'\u5927\u69fb\u54cd']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/AVOP-264/大槻响">AVOP-264</a></h4>
+                          <p>2016-09-01 <strong>点赞：</strong>1345</p>
+                      </div>
+                  </div>
+
+
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/MXGS-943/大槻响" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/MXGS-943.jpg" class="img-responsive" alt="[u'\u5927\u69fb\u54cd']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/MXGS-943/大槻响">MXGS-943</a></h4>
+                          <p>2017-03-16 <strong>点赞：</strong>1000</p>
+                      </div>
+                  </div>
+
+
+
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/ONIN-026/未知" target="_blank">
+                                  <img src="http://pic.mmyszx.com/pic/fanhaopic/5a59c9c005891.jpg" class="img-responsive" alt="[u'\u672a\u77e5']">
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/ONIN-026/未知">ONIN-026</a></h4>
+                          <p>2018-01-19 <strong>点赞：</strong>1154</p>
+                      </div>
+                  </div>
+
+              </div>
+              <div class="clearfix"></div>
+
+
+          <br>
+          <div class="clearfix"></div>
+
+          <div class="women">
+              <a href="#">
+                  <h4>最新番号 <span></span> </h4>
+              </a>
+              <div class="w_nav"><a class="active" href="/fhs">查看更多</a></div>
+              <div class="clearfix"></div>
+          </div>
+
+          <div class="clearfix"></div>
+          <br>
+          <div class="clearfix"></div>
         </div>
       </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <nav class="footer_nav" data-reactid="18">
-                        <ul>
-                            <li><span data-reactid="19">热门搜索:</span>
-                            <li><a href="/search?word=%E6%B5%B7%E7%8E%8B&page=2" data-reactid="20">海王</a></li>
-                            <li><a href="/search?word=%E5%A4%A7%E9%BB%84%E8%9C%82" data-reactid="21">大黄蜂</a></li>
-                            <li><a href="/search?word=%E6%AD%BB%E4%BE%8D2" data-reactid="22">死侍2</a></li>
-                            <li><a href="/search?word=%E6%9D%A5%E7%94%B5%E7%8B%82%E5%93%8D" data-reactid="23">来电狂响</a></li>
-                            <li><a href="/search?word=%E9%BB%91%E9%95%9C%EF%BC%9A%E6%BD%98%E8%BE%BE%E6%96%AF%E5%A5%88%E5%9F%BA"
-                                    data-reactid="24">黑镜：潘达斯奈基 / 黑镜：2018圣诞特别篇 </a></li>
-                            <li><a href="/search?word=%E5%B0%8F%E5%81%B7%E5%AE%B6%E6%97%8F" data-reactid="25">小偷家族</a></li>
-                    </nav>
-                    <nav class="footer_nav">
-                        <ul>
-                            <li><span data-reactid="19">电影排行:</span></li>
-                            <li><a class="nav-link" href="/mvhot" data-reactid="20">影院热映</a></li>
-                            <li><a class="nav-link" href="/mvtop" data-reactid="21">豆瓣口碑</a></li>
-                            <li><span data-reactid="19">
-                                    <a class="nav-link" href="/newdata" data-reactid="20">最新收录</a>
-                                </span></li>
-                            <li><a class="nav-link" href="/fanhaolist" data-reactid="20">番号大全</a></li>
-                        </ul>
-                    </nav>
-                    <div class="copyright">
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This
-                        template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> Colorlib - More
-                        Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -
-                        Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div class="clearfix"></div>
     <script>
 
     </script>
-</div>
-
 
 {%endblock%}

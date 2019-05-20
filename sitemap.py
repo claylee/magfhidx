@@ -10,16 +10,17 @@ from flask import Flask, request, session, g, redirect, url_for, \
      abort, render_template, flash
 
 from models.Models import *
+from models.fanhao import *
 from database import db_session
 from datetime import datetime
 import jieba
-from magsearcher import popSchema
 from application import app
 import logging
 from xml.etree import ElementTree as ET
 import os
 from flask import url_for
 from datetime import datetime,time
+import urllib
 
 import io
 import re
@@ -136,13 +137,15 @@ def get_lastmod_time(filename):
     return time.strftime('%Y-%m-%dT%H:%M:%S+08:00', t)
 
 def maphash():
-    hashs = SearchHash.query.filter(and_(SearchHash.category != "package" , SearchHash.sensi ==0)).slice(0,20000)
+    fh = Fanhao()
+    idx_publisher = fh.load_fanhao()['publisher']
     idx = 0
-    for h in hashs:
-        urls.append("http://www.tor01.com/resdetail/{}".format(h.info_hash))
+    for h in idx_publisher.keys():
+        c = h.replace("/","[_]")
+        urls.append("http://www.tor01.com/publisher/{}".format(urllib.quote(c.encode('utf-8'))))
         idx += 1
         if idx % 1000 == 0:
-            print(idx, "http://www.tor01.com/resdetail/{}".format(h.info_hash))
+            print(idx, "http://www.tor01.com/publisher/{}".format(h))
         mods.append(datetime.strftime(datetime.now(), '%Y-%m-%dT%H:%M:%S+08:00'))
         #generatr_xml_index('index.xml', urls, mods)
         changefreqs.append("weekly")
@@ -164,3 +167,5 @@ if __name__ == '__main__':
 
     db.init_app(app)
     app.app_context().push()
+
+    maphash()

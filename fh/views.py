@@ -22,19 +22,11 @@ from scrapyfh import queryhash as qh
 from models.movie import *
 import sys
 from models.fanhao import *
-
+from urllib import *
 
 @fh.route("/",methods = ["Get","POST"])
 def index():
-    fh = Fanhao()
-    fh_arr = fh.load_fanhao().items()
-    fh_arr = fh_arr[1:8]
-
-    cast = Cast()
-    cast_arr = cast.load_casts().items()[1:8]
-
-    return render_template("/fh/index.html", title = "fanhao "
-        ,castlist= cast_arr, fhlist = fh_arr)
+    return render_template("/fh/index.html")
 
 @fh.route("/fhs/",methods = ["Get","POST"])
 @fh.route("/fhs/<page>",methods = ["Get","POST"])
@@ -88,6 +80,12 @@ def fhhash(fh,cast):
                     fhjson = f
                     break
             break
+    castfile.close()
+
+    fh = Fanhao()
+    linkPublisherfhs,link_pub_totals = fh.load_fanhao_publisher(fhjson['publisher'],1,12)
+    print("linkPublisherfhs")
+    print(linkPublisherfhs)
 
     if s_lmt and s_lmt == "0":
         # results = SearchHash.query.filter(
@@ -101,7 +99,8 @@ def fhhash(fh,cast):
 
 
     lidx = random.randint(1,len(linkfhs))
-    return render_template("/fh/fh_fhhash.html", fh = fhjson, cast = cast, hashlist = results, linkfhs = linkfhs[lidx:lidx+24])
+    return render_template("/fh/fh_fhhash.html", fh = fhjson, cast = cast, hashlist = results
+        , linkfhs = linkfhs[lidx:lidx+12], link_pub_fhs = linkPublisherfhs, link_pub_totals = link_pub_totals)
 
 @fh.route("/publishers/",methods = ["Get","POST"])
 def publishers():
@@ -111,10 +110,16 @@ def publishers():
     #cr = Cast()
     #cr.convert_to_shelve()
     fh = Fanhao()
-    jsondata = fh.load_fanhao()['publisher'].keys()
+    jsondata = fh.load_fanhao()
+    idx_pub = jsondata['publisher']
+    publist = []
+    for c in idx_pub.keys():
+        if not c:
+            continue
+        publist.append({'pub':c,'count':len(idx_pub[c])})
     #file = codecs.open("data/publisher.json",'r',encoding='utf-8')
     #jsondata = json.loads(file.read())
-    return render_template("/fh/fh_serial.html", publist = jsondata)
+    return render_template("/fh/fh_serial.html", publist = publist)
 
 @fh.route("/publisher/<pub>",methods = ["Get","POST"])
 @fh.route("/publisher/<pub>/<page>",methods = ["Get","POST"])
@@ -122,22 +127,32 @@ def publishers():
 @fh.route("/publisher_date/<pub>/<year>/<page>",methods = ["Get","POST"])
 def publisher(pub, year = "", page = 1 , pagesize = 20, sensfilter = True):
     #file = codecs.open("data/publisher.json",'r',encoding='utf-8')
+    pub = pub.replace("[_]","/")
     page = int(page)
+    year = str(year)
     #jsondata = json.loads(file.read())
     fhlistPub = []
     fhlist = []
     total = 0
     fh = Fanhao()
-    fhlistPub, total = fh.load_fanhao_publisher(pub, page, pagesize)
+    #fhlistPub, total = fh.load_fanhao_publisher(pub, page, pagesize)
+    idx_publisher = fh.load_fanhao()['publisher']
+    fhdata = fh.load_fanhao()['data']
 
     if year:
-        for fh in fhlistPub:
-            if fh['issuedate'].find(year)>-1:
-                fhlist.append(fh)
+        for fh in idx_publisher[pub]:
+            if not fh in fhdata:
+                continue
+            if fhdata[fh]['issuedate'].find(year)>-1:
+                fhlist.append(fhdata[fh])
     else:
-        fhlist = fhlistPub
+        for fh in idx_publisher[pub]:
+            if not fh in fhdata:
+                continue
+            fhlist.append(fhdata[fh])
 
-    totalpages = ceil(len(fhlist)/float(pagesize))
+    total = len(fhlist)
+    totalpages = ceil(total/float(pagesize))
     fhlist = fhlist[(page-1)*pagesize:(page-1)*pagesize + pagesize]
     return render_template("/fh/fh_serialfh.html", fanhaolist = fhlist, year=year, publisher=pub, pages = totalpages, curpage = page)
 
@@ -168,6 +183,8 @@ def casts(page = 1 , year="", tag="", pagesize = 40, sensfilter = True):
 
 @fh.route("/cast/<cast>/",methods = ["Get","POST"])
 @fh.route("/cast/<cast>/<page>",methods = ["Get","POST"])
+@fh.route("/castfh/<cast>/",methods = ["Get","POST"])
+@fh.route("/castfh/<cast>/<page>",methods = ["Get","POST"])
 def cast(cast, page = 1 , pagesize = 8, sensfilter = True):
     #file = codecs.open("data/casts.json",'r',encoding='utf-8')
     #jsondata = json.loads(file.read())
@@ -195,3 +212,30 @@ def mvtop():
     jsoncontent = top()
     return render_template("/fh/mv_top.html",
         mvs = jsoncontent)
+
+
+@fh.route("/sitemap",methods = ["Get","POST"])
+@fh.route("/sitemap.xml",methods = ["Get","POST"])
+def sitemap():
+    return app.send_static_file('sitemap.xml')
+
+
+@fh.route("/sitemap_i1",methods = ["Get","POST"])
+@fh.route("/sitemap_i1.xml",methods = ["Get","POST"])
+def sitemap_i1():
+    return app.send_static_file('sitemap_r1.xml')
+
+@fh.route('/fh/<path:page_name>/')
+def redirectNew(page_name=''):
+    print '''
+    UserAgent: {}
+    Method   : {}
+    GetArgs  : {}
+    PostArgs : {}
+    '''.format(
+        request.headers.get('User-Agent'),
+        request.method,
+        request.args,
+        request.form,
+    )
+    return redirect('/{0}'.decode('utf-8').format(page_name), code=301)

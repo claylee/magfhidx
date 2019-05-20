@@ -17,91 +17,43 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/search?word=%E6%B5%B7%E7%8E%8B</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/search?word=%E5%A4%A7%E9%BB%84%E8%9C%82</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/search?word=%E6%9D%A5%E7%94%B5%E7%8B%82%E5%93%8D</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/search?word=%E9%BB%91%E9%95%9C%EF%BC%9A%E6%BD%98%E8%BE%BE%E6%96%AF%E5%A5%88%E5%9F%BA</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/search?word=%E5%B0%8F%E5%81%B7%E5%AE%B6%E6%97%8F</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/movieindex/top250</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/movieindex/theaters</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/newdata/</loc>
-    <priority>0.8</priority>
-    <lastmod>2019-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.tor01.com/fh/fhs</loc>
+    <loc>http://www.tor01.com/fhs</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/fh/publishers</loc>
+    <loc>http://www.tor01.com/publishers</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/fh/casts</loc>
+    <loc>http://www.tor01.com/casts</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/fh/cast/%E4%B8%89%E4%B8%8A%E6%82%A0%E4%BA%9A/</loc>
+    <loc>http://www.tor01.com/cast/%E4%B8%89%E4%B8%8A%E6%82%A0%E4%BA%9A/</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/fh/cast/%E6%A1%83%E8%B0%B7%E7%BB%98%E9%87%8C%E9%A6%99/</loc>
+    <loc>http://www.tor01.com/cast/%E6%A1%83%E8%B0%B7%E7%BB%98%E9%87%8C%E9%A6%99/</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/fh/cast/%E6%9F%9A%E6%9C%A8%E6%8F%90%E5%A8%9C/</loc>
+    <loc>http://www.tor01.com/cast/%E6%9F%9A%E6%9C%A8%E6%8F%90%E5%A8%9C/</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.tor01.com/fh/cast/%E9%93%83%E6%9C%A8%E5%BF%83%E6%98%A5/</loc>
+    <loc>http://www.tor01.com/cast/%E9%93%83%E6%9C%A8%E5%BF%83%E6%98%A5/</loc>
     <priority>0.8</priority>
     <lastmod>2019-02-14</lastmod>
     <changefreq>weekly</changefreq>
