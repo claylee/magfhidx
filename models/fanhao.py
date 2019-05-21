@@ -79,7 +79,9 @@ class Fanhao():
 
     def load_fanhao_page(self, page, pagesize):
         jsondata = shelve.open(self.castpath + "/{}.binjson".format(self.filename))
-        return jsondata['data'].values()[(page-1)*pagesize:(page-1)*pagesize + pagesize], len(jsondata['data'])
+        sortedData = jsondata['data'].values()
+        sortedData = sorted(sortedData, key=lambda d: int(d["hot"]), reverse = True)
+        return sortedData[(page-1)*pagesize:(page-1)*pagesize + pagesize], len(jsondata['data'])
 
     def load_fanhao_year(self, value, page, pagesize):
         return self.load_fanhao_idxfilter('issuedate', value, page, pagesize)
@@ -116,6 +118,17 @@ class Fanhao():
         array_e_idx = (page-1)*pagesize + pagesize
         totals = 0
         tag_list =[]
+        sortedData = self.sortedData(data, idx[value])
+        print(sortedData[0])
+        for d in sortedData:
+            totals = totals+1
+            if totals <= array_s_idx:
+                continue
+            if totals > array_e_idx:
+                break
+            print(d)
+            tag_list.append(d)
+        '''
         for k in idx[value]:
             totals = totals+1
             if totals <= array_s_idx:
@@ -123,8 +136,23 @@ class Fanhao():
             if totals > array_e_idx:
                 break
             tag_list.append(data[k])
+        '''
 
         return tag_list,len(idx[value])
+
+    def sortedData(self, data, index = None, sortField = 'hot'):
+        dataFilter = data
+        if index:
+            dataFilter = self.FetchAll(data, index)
+        return sorted(dataFilter, key=lambda d: int(d[sortField]), reverse = True)
+
+
+    def FetchAll(self, data, idx):
+        result = []
+        for k in idx:
+            result.append(data[k])
+        return result
+
 
     def convert_to_shelve(self):
         binjsondata = shelve.open(self.castpath + "/{}.binjson".format(self.filename))
