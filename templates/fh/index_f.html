@@ -1,0 +1,130 @@
+{% extends "fh/fhbase.html" %}
+{% block title %}番号大全首页{% endblock %}
+{% block metakeywords %}日本番号,番号系列,女优排行,番号大全,女优番号,三上悠亚合集,TEK系列,SNIS系列{% endblock %}
+{%block body%}
+    <div class="women_main">
+        <div class="col-md-3">
+          <div class="w_sidebar">
+              <section class="sky-form">
+                  <h4>热门系列</h4>
+                  <ul class="megamenu skyblue">
+                  {% for mi in publist%}
+                    <li class="">
+                      <a class="color{{loop.index%10+1}}" target="_blank" href="/publisher/{{mi['pub']|urlencode|replace('/','[_]')|e|safe}}">{{mi['pub']}}  <span class="badge">{{mi['count']}}部</span>
+                      </a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+              </section>
+          </div>
+        </div>
+        <div class="col-md-9 w_content">
+          <div class="women">
+              <a href="#">
+                  <h4>热门女优 <span></span> </h4>
+              </a>
+              <div class="w_nav"><a class="active" href="/casts">查看更多</a></div>
+              <div class="clearfix"></div>
+          </div>
+          {% for mi in castlist%}
+              {% if (loop.index - 1) % 4 == 0%}
+              <div class="grids_of_4">
+              {%endif%}
+              <div class="grid1_of_4">
+                  <div class="content_box">
+                      <div class="view view-fifth">
+                          <a href="/cast/{{mi['name']}}" target="_blank">
+                              <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                              <div class="mask">
+                                  <div class="info">Quick View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <h4><a target="_blank" href="/cast/{{mi['name']}}">{{mi['name']}}</a></h4>
+                      <p><strong>点赞：</strong>{{mi['hot']}}</p>
+                  </div>
+              </div>
+              {% if (loop.index) % 4 == 0 or loop.last %}
+              </div>
+              <div class="clearfix"></div>
+              {%endif%}
+          <!-- Product -->
+
+          {% endfor %}
+          <div class="clearfix"></div>
+          <br/>
+
+            <div class="women">
+                <a href="#">
+                    <h4>热门番号 <span></span> </h4>
+                </a>
+                <div class="w_nav"><a class="active" href="/fhs">查看更多</a></div>
+                <div class="clearfix"></div>
+            </div>
+            {% for mi in fhlist%}
+              {% if (loop.index - 1) % 4 == 0%}
+              <div class="grids_of_4">
+                  {%endif%}
+                  <div class="grid1_of_4">
+                      <div class="content_box">
+                          <div class="view view-fifth">
+                              <a href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}" target="_blank">
+                                  <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                                  <div class="mask">
+                                      <div class="info">Quick View</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <h4><a target="_blank" href="/fhhash/{{mi['no']}}/{{mi['cast'][0]}}">{{mi['no']}}</a></h4>
+                          <p>{{mi['issuedate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                      </div>
+                  </div>
+                  {% if (loop.index) % 4 == 0 or loop.last %}
+              </div>
+              <div class="clearfix"></div>
+            {%endif%}
+          {% endfor %}
+          <br/>
+          <div class="clearfix"></div>
+
+          <div class="women">
+              <a href="#">
+                  <h4>最新番号 <span></span> </h4>
+              </a>
+              <div class="w_nav"><a class="active" href="/fhs">查看更多</a></div>
+              <div class="clearfix"></div>
+          </div>
+          {% for mi in fhnewlist%}
+            {% if (loop.index - 1) % 4 == 0%}
+            <div class="grids_of_4">
+                {%endif%}
+                <div class="grid1_of_4">
+                    <div class="content_box">
+                        <div class="view view-fifth">
+                            <a href="/fhhash/{{mi['no']}}" target="_blank">
+                                <img src="{{mi.img}}" class="img-responsive" alt="{{mi['cast']}}" />
+                                <div class="mask">
+                                    <div class="info">Quick View</div>
+                                </div>
+                            </a>
+                        </div>
+                        <h4><a target="_blank" href="/fhhash/{{mi['no']}}">{{mi['no']}}</a></h4>
+                        <p>{{mi['issuedate']}} <strong>点赞：</strong>{{mi['hot']}}</p>
+                    </div>
+                </div>
+                {% if (loop.index) % 4 == 0 or loop.last %}
+            </div>
+            <div class="clearfix"></div>
+          {%endif%}
+          {% endfor %}
+          <div class="clearfix"></div>
+          <br/>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    <div class="clearfix"></div>
+    <script>
+    </script>
+
+
+{%endblock%}

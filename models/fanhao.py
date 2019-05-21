@@ -21,7 +21,6 @@ class Cast():
 
     def load_casts_page(self, page, pagesize):
         jsondata = shelve.open(self.castpath + "/{}.binjson".format(self.filename))
-        print(len(jsondata['data']))
         cast_list = jsondata['data'].values()
         #print(cast_list)
         #cast_sort = cast_list.sort(key=lambda k: (k.get('hot', 0)))
