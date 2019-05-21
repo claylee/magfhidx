@@ -35,3 +35,5 @@ class Config(object):
 	SECURITY_REGISTERABLE = True
 	SECURITY_SEND_REGISTER_EMAIL = False
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
+	OSS_IMG_INTERNAL_URL = "https://magdata.oss-cn-hangzhou-internal.aliyuncs.com/img/"
+	OSS_IMG_URL = "https://magdata.oss-cn-hangzhou.aliyuncs.com/img/"
