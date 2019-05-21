@@ -80,7 +80,8 @@ def fhhash(fhno,cast):
 
     castsDetail = []
     for c in fhjson['cast']:
-        castsDetail.append(json_cast[c])
+        if c in json_cast:
+            castsDetail.append(json_cast[c])
 
     linkfhs,casttotal = fh.load_fanhao_filter("cast",cast,1,12)
 

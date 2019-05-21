@@ -34,8 +34,10 @@
                   <li><strong>发行：</strong>{{fh.issuedate}}</li>
                   <li><strong>点赞：</strong>{{fh.hot}}</li>
                   <li>
+                    <strong>标签：</strong>
                     {% for c in fh.tags %}
-                      <span class="badge badge-success">{{c}}</span>
+                    <a href="/fhs_tag/{{c}}" title="{{c}}" target="_blank"
+                      style="display:inline-block;padding:1px"><span class="badge badge-success">{{c}}</span></a>
                     {%endfor%}
                   </li>
               </ul>
