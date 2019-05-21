@@ -62,36 +62,34 @@ def fhs(page = 1 , year = "", tag = "", pagesize = 40, sensfilter = True):
     return render_template("/fh/fanhao.html", title = "fanhao "
     , pages= (400 * 40)/pagesize ,curpage = page, fanhaolist = l)
 
-@fh.route("/fhhash/<fh>/<cast>/",methods = ["Get","POST"])
-def fhhash(fh,cast):
-    castfile = codecs.open("data/cast.json",'r',encoding='utf-8')
-    json_cast = json.loads(castfile.read())
+@fh.route("/fhhash/<fhno>/<cast>/",methods = ["Get","POST"])
+def fhhash(fhno,cast):
+    #castfile = codecs.open("data/cast.json",'r',encoding='utf-8')
+    #json_cast = json.loads(castfile.read())
+    castLoader = Cast()
+    json_cast = castLoader.load_casts()
 
     fhjson = {}
     linkfhs = []
     results = []
     s_lmt = request.cookies.get('s_lmt')
 
-    for (c, fhlist) in json_cast.items():
-        if c == cast:
-            linkfhs = fhlist
-            for f in fhlist:
-                if f['no'] == fh:
-                    fhjson = f
-                    break
-            break
-    castfile.close()
-
     fh = Fanhao()
-    linkPublisherfhs,link_pub_totals = fh.load_fanhao_publisher(fhjson['publisher'],1,12)
-    print("linkPublisherfhs")
-    print(linkPublisherfhs)
+    jsonData = fh.load_fanhao()
+    fhjson = jsonData["data"][fhno]
 
+    castsDetail = []
+    for c in fhjson['cast']:
+        castsDetail.append(json_cast[c])
+
+    linkfhs,casttotal = fh.load_fanhao_filter("cast",cast,1,12)
+
+    linkPublisherfhs,link_pub_totals = fh.load_fanhao_publisher(fhjson['publisher'],1,12)
     if s_lmt and s_lmt == "0":
         # results = SearchHash.query.filter(
         #     and_(SearchHash.sensi ==0, SearchHash.name.like(fh))
         # ).all()
-        idlist = qh.query(fh)
+        idlist = qh.query(fhno)
 
         results = SearchHash.query.filter(
                 SearchHash.id.in_(idlist)
@@ -99,8 +97,10 @@ def fhhash(fh,cast):
 
 
     lidx = random.randint(1,len(linkfhs))
-    return render_template("/fh/fh_fhhash.html", fh = fhjson, cast = cast, hashlist = results
-        , linkfhs = linkfhs[lidx:lidx+12], link_pub_fhs = linkPublisherfhs, link_pub_totals = link_pub_totals)
+    return render_template("/fh/fh_fhhash.html", fh = fhjson,
+        cast = cast, hashlist = results
+        , linkfhs = linkfhs[lidx:lidx+12], castsDetail=castsDetail,
+        link_pub_fhs = linkPublisherfhs, link_pub_totals = link_pub_totals)
 
 @fh.route("/publishers/",methods = ["Get","POST"])
 def publishers():

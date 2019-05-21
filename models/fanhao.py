@@ -119,14 +119,12 @@ class Fanhao():
         totals = 0
         tag_list =[]
         sortedData = self.sortedData(data, idx[value])
-        print(sortedData[0])
         for d in sortedData:
             totals = totals+1
             if totals <= array_s_idx:
                 continue
             if totals > array_e_idx:
                 break
-            print(d)
             tag_list.append(d)
         '''
         for k in idx[value]:

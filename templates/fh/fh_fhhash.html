@@ -22,11 +22,11 @@
                       <p><strong>番号：</strong>{{fh.no}}</p>
                   </li>
                   <li>
-                      <p><strong>演出：</strong><a target="_blank" style="display:inline" href="/cast/{{cast}}">{{cast}}</a></p>
+                      <p><strong>演出：</strong></p>
                   </li>
                   <li>
                       {% for c in fh.cast %}
-                      {{c}}
+                        <a target="_blank" style="display:inline" href="/cast/{{c}}">{{c}}</a>
                       {%endfor%}
                   </li>
                   <li><span>
@@ -40,6 +40,15 @@
                   </li>
               </ul>
           </div>
+          <section class="sky-form">
+  					<h4>演出</h4>
+            <ul class="w_nav2">
+                {% for c in castsDetail %}
+                  <li><a href="/cast/{{c['name']}}" title="{{c['name']}}" target="_blank"
+                    style="padding:1px"><img title="{{c['name']}}" alt="{{c['name']}}" style="width:64px" src="{{c['img']}}"/></a></li>
+                {%endfor%}
+            </ul>
+          </section>
       </div>
   </div>
         <div name='douban' class="col-md-9 w_content" data-reactid="17">
@@ -90,7 +99,15 @@
             </div>
             <div class="clearfix"></div>
             <div class="single-bottom1">
-                <h6>{{cast}}出演 - 其他番号</h6>
+                <div class="women">
+                  <h4><a href="/cast/{{cast}}" target="_blank">{{cast}}</a> 出演的其他番号</h4>
+                  <ul class="w_nav">
+                    <li>
+                      <a class="active" href="/cast/{{cast}}" target="_blank">查看全部</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
                 {% for mi in linkfhs %}
                 {% if (loop.index - 1) % 4 == 0%}
                 <div class="grids_of_4">
@@ -116,7 +133,16 @@
                 <div class="clearfix"></div>
             </div>
             <div class="single-bottom1">
-                <h6>{{fh.publisher}}系列 - 其他番号 {{link_pub_totals}}部</h6>
+                <div class="women">
+                  <h4><a href="/publisher/{{fh.publisher}}" target="_blank">{{fh.publisher}}</a> 系列其他番号 - {{link_pub_totals}}部</h4>
+                  <ul class="w_nav">
+                    <li>
+                      <a class="active" href="/publisher/{{fh.publisher}}" target="_blank">查看全部</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+
                 {% for mi in link_pub_fhs %}
                 {% if (loop.index - 1) % 4 == 0%}
                 <div class="grids_of_4">
