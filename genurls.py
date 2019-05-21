@@ -27,7 +27,7 @@ def initUrls():
     f_data = fh.load_fanhao()
     for c in f_data["publisher"]:
         #print(c.decode("utf-8"))
-        c.replace("//","[ ]")
+        c.replace("/","[_]")
         url = "http://www.tor01.com/publisher/{0}".format(urllib.quote(c.encode("utf-8")))
         #url = urllib.quote(url)
         print(url)
