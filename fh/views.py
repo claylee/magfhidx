@@ -96,11 +96,9 @@ def fhhash(fhno,cast):
                 SearchHash.id.in_(idlist)
         ).all()
 
-
-    lidx = random.randint(1,len(linkfhs))
     return render_template("/fh/fh_fhhash.html", fh = fhjson,
         cast = cast, hashlist = results
-        , linkfhs = linkfhs[lidx:lidx+12], castsDetail=castsDetail,
+        , linkfhs = linkfhs, castsDetail=castsDetail,
         link_pub_fhs = linkPublisherfhs, link_pub_totals = link_pub_totals)
 
 @fh.route("/publishers/",methods = ["Get","POST"])
