@@ -76,7 +76,11 @@ def fhhash(fhno,cast):
 
     fh = Fanhao()
     jsonData = fh.load_fanhao()
-    fhjson = jsonData["data"][fhno]
+
+    if fhno not in jsonData["data"]:
+        return render_template("/fh/fh404.html")
+    else:
+        fhjson = jsonData["data"][fhno]
 
     castsDetail = []
     for c in fhjson['cast']:

@@ -1,0 +1,95 @@
+{% extends "fh/fhbase.html" %}
+
+{%block body%}
+<div class="women_main">
+  <div class="col-md-3">
+      <div class="w_sidebar">
+          <div class="w_nav1">
+              <img class="card-img-top" src="#"/>
+              <div class="card-header">
+              </div>
+          </div>
+          <div class="w_nav1">
+              <h4>简介</h4>
+              <ul>
+                  <li>
+                      <p><strong>番号：</strong></p>
+                  </li>
+                  <li>
+                      <p><strong>演出：</strong></p>
+                  </li>
+                  <li>
+                  </li>
+                  <li><span>
+                    <strong>片商：</strong><a target="_blank" style="display:inline" href="#"></a></span></li>
+                  <li><strong>发行：</strong></li>
+                  <li><strong>点赞：</strong></li>
+                  <li>
+                    <strong>标签：</strong>
+                  </li>
+              </ul>
+          </div>
+          <section class="sky-form">
+  					<h4>演出</h4>
+            <ul class="w_nav2">
+            </ul>
+          </section>
+      </div>
+  </div>
+        <div name='douban' class="col-md-9" data-reactid="17">
+            <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title"><img src="/static/wish/images/bag1.png"> 404 Error!<span></span></h4>
+                </div>
+                <div class="card-body">
+                  <div class="clearfix"></div>
+                  <div>抱歉页面走丢了!</div>
+                  <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    <script>
+        $(function () {
+            return;
+            var turl = "https://api.douban.com/v2/movie/in_theaters";
+            var indextype = $(".indextype").val();
+            if (indextype == "top250") {
+                turl = "https://api.douban.com/v2/movie/top250?start=0&count=50";
+            }
+            else if (indextype == "theaters") {
+                turl = "https://api.douban.com/v2/movie/in_theaters";
+            }
+            $.ajax({
+                url: turl,
+                type: 'GET',
+                dataType: 'JSONP', // 处理Ajax跨域问题
+                success: function (data) {
+                    $('.indextitle').text(data.title)
+                    for (var mi in data.subjects) {
+                        mi = data.subjects[mi];
+                        var $miTemp = $(
+                            '<div class="col-sm-2"> \
+                <div class="card" style="width: 165;height:320; margin:12px;"> \
+                  <a class="movielink" target="_blank"><img class="card-img-top" style="height:200;" src="..." alt="Card image cap"></a> \
+                  <div class="card-body"> \
+                    <a class="movielink" target="_blank"><p class="card-title">Card title</p></a> \
+                    <p class="card-text"></p> \
+                  </div> \
+              </div></div>');
+                        $miTemp.find('.card-title').text(mi.title);
+                        $miTemp.find('.card-img-top').attr("src", mi.images.small);
+                        for (var i in mi.genres) {
+                            var tag = mi.genres[i];
+                            $miTemp.find('.card-text').append($('<span class="badge badge-primary" style="margin:2px">' + tag + '</span>'))
+                        }
+                        $miTemp.find('.movielink').attr("href", "http://www.tor01.com/search?word=" + encodeURIComponent(mi.title));
+
+                        $('div[name="douban"]>div').append($miTemp);
+                    }
+                }
+            });
+        });
+    </script>
+</div>
+{%endblock%}
