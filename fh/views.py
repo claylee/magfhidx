@@ -194,7 +194,10 @@ def cast(cast, page = 1 , pagesize = 8, sensfilter = True):
     cr = Cast()
     fh = Fanhao()
 
-    castjson = cr.load_casts()[cast]
+    if cast not in cr.load_casts():
+        return render_template("/fh/fh404.html")
+    else:
+        castjson = cr.load_casts()[cast]
 
     castfhjson,total = fh.load_fanhao_filter("cast",cast,int(page),pagesize)
     page = int(page)
