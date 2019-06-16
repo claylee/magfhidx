@@ -28,6 +28,24 @@ from urllib import *
 def index():
     return render_template("/fh/index.html")
 
+@fh.route("/search/",methods = ["Get","POST"])
+@fh.route("/search?words=<words>",methods = ["Get","POST"])
+def search(wd=""):
+    cr = Cast()
+    year = ""
+    page = 1
+    pagesize = 20
+    sensfilter = True
+
+    words = request.args.get('words')
+    page = int(page)
+
+    castlist = cr.search(words)
+
+    totalpages = ceil(len(castlist)/float(pagesize))
+    return render_template("/fh/fh_castlist.html", casts = castlist, tag = "" , year = year, pages = totalpages, curpage = page)
+
+
 @fh.route("/fhs/",methods = ["Get","POST"])
 @fh.route("/fhs/<page>",methods = ["Get","POST"])
 @fh.route("/fhs_date",methods = ["Get","POST"])
