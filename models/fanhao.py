@@ -19,6 +19,15 @@ class Cast():
         jsondata = shelve.open(self.castpath + "/{}.binjson".format(self.filename))
         return jsondata['data']
 
+    def search(self, words):
+        cast_data = self.load_casts()
+        casts = []
+        for l in cast_data:
+            if l.find(words) > -1:
+                casts.append(cast_data[l])
+
+        return casts
+
     def load_casts_page(self, page, pagesize):
         jsondata = shelve.open(self.castpath + "/{}.binjson".format(self.filename))
         cast_list = jsondata['data'].values()
