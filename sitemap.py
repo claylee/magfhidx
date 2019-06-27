@@ -139,6 +139,7 @@ def get_lastmod_time(filename):
 def maphash():
     fh = Fanhao()
     idx_publisher = fh.load_fanhao()['publisher']
+
     idx = 0
     for h in idx_publisher.keys():
         c = h.replace("/","[_]")
@@ -150,6 +151,39 @@ def maphash():
         #generatr_xml_index('index.xml', urls, mods)
         changefreqs.append("weekly")
         prioritys.append("0.6")
+
+    cast = Cast()
+    idx_cast = cast.load_casts()
+    for c in idx_cast.keys():
+        print(c)
+        c = c.replace("/","[_]")
+        urls.append("http://www.tor01.com/cast/{}".format(urllib.quote(c.encode('utf-8'))))
+        idx += 1
+        if idx % 1000 == 0:
+            print(idx, "http://www.tor01.com/cast/{}".format(c.encode('utf-8')))
+        mods.append(datetime.strftime(datetime.now(), '%Y-%m-%dT%H:%M:%S+08:00'))
+        #generatr_xml_index('index.xml', urls, mods)
+        changefreqs.append("weekly")
+        prioritys.append("0.6")
+
+    idx_publisher = fh.load_fanhao()['data']
+    for k,h in idx_publisher.items():
+        c = k.replace("/","[_]")
+        print(h['cast'])
+        c_name = ""
+        if len(h['cast']) > 0:
+            c_name = h['cast'][0]
+        urls.append("http://www.tor01.com/fhhash/{}/{}".format(
+            urllib.quote(c.encode('utf-8')),urllib.quote(c_name.encode('utf-8'))
+        ))
+        idx += 1
+        if idx % 1000 == 0:
+            print(idx, "http://www.tor01.com/fhhash/{}/".format(h), c_name)
+        mods.append(datetime.strftime(datetime.now(), '%Y-%m-%dT%H:%M:%S+08:00'))
+        #generatr_xml_index('index.xml', urls, mods)
+        changefreqs.append("weekly")
+        prioritys.append("0.6")
+
     sm = SitemapFile("sitemap_r1")
     sm.generate_xml("static/sitemap_r1.xml",urls,prioritys,mods,changefreqs)
 
